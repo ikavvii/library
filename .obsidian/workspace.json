@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0b71a71c8823a06a",
+        "id": "722b4f83718229c2",
         "type": "tabs",
         "children": [
           {
-            "id": "3119f9c4405da622",
+            "id": "6a5cbc0be8d8ad44",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Algorithms/Breadth First Search.md",
+                "file": "Data Structures/Algorithms/DFS and BFS Trace.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Breadth First Search"
+              "title": "DFS and BFS Trace"
             }
           }
         ]
@@ -194,15 +194,19 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "3119f9c4405da622",
+  "active": "6a5cbc0be8d8ad44",
   "lastOpenFiles": [
+    "Data Structures/Algorithms/DFS and BFS Trace.md",
+    "Data Structures/Algorithms/Breadth First Search.md",
+    "Data Structures/Algorithms/Depth First Search.md",
+    "Data Structures/Algorithms/InsertBST.md",
+    "Data Structures/Algorithms/Reverse a Singly Linked List.md",
+    "Data Structures/Algorithms/SearchBST.md",
+    "Data Structures/CO4.md",
+    "Data Structures/Hashing.md",
     "Data Structures/Linked List Worksheet.md",
     "Data Structures/Algorithms/DeleteBST.md",
-    "Data Structures/Algorithms/SearchBST.md",
-    "Data Structures/Algorithms/InsertBST.md",
-    "Data Structures/Algorithms/Depth First Search.md",
     "Data Structures/Algorithms/Check if the Graph is Connected.md",
-    "Data Structures/Algorithms/Breadth First Search.md",
     "Data Structures/Algorithms",
     "DSA/2047. number-of-valid-words-in-a-sentence.md",
     "Statistics/One sided and Two sides hypothesis.md",
@@ -224,11 +228,7 @@
     "Biometrics/Multimodal Biometrics.md",
     "Biometrics/End semester.md",
     "Web Dev Bootcamp/Width.md",
-    "dotNET/End semester.md",
-    "dotNET/dot NET Architecture.md",
     "dotNET/attachments/WhatsApp Image 2025-04-03 at 17.55.07_4817f2d3.jpg",
-    "dotNET/Assignment.md",
-    "dotNET/Two marks.md",
     "dotNET/attachments",
     "Web Technology/attachments/Pasted image 20250107172852.png",
     "site/en/tutorials/generative/style_transfer.ipynb",
