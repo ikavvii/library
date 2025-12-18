@@ -14,5 +14,6 @@
   "strictLineBreaks": true,
   "showInlineTitle": true,
   "promptDelete": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "tabSize": 4
 }

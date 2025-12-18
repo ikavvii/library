@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4237e639fb29be4e",
+        "id": "68d99cb57c41a1e5",
         "type": "tabs",
         "children": [
           {
-            "id": "6987d81ac7ca1163",
+            "id": "5faa14a1270ad66c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Structures/Algorithms/Balanced Parentheses Checker using Stack.md",
+                "file": "Data Structures/Algorithms/Queue using SLL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Balanced Parentheses Checker using Stack"
+              "title": "Queue using SLL"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "queue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 312.51103591918945
   },
   "right": {
     "id": "a2efc1bf3c4ef1d0",
@@ -194,30 +194,32 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "6987d81ac7ca1163",
+  "active": "6d769a505005d5a2",
   "lastOpenFiles": [
-    "Data Structures/Linked List Worksheet.md",
+    "Data Structures/Algorithms/Find level of a node with given value in binary tree.md",
     "Data Structures/Algorithms/Balanced Parentheses Checker using Stack.md",
+    "Data Structures/Algorithms/InsertBST.md",
+    "Data Structures/Algorithms/Queue using SLL.md",
+    "Data Structures/Algorithms/Reverse a Singly Linked List.md",
+    "Data Structures/Algorithms/SearchBST.md",
+    "Data Structures/Linked List Worksheet.md",
     "Data Structures/Hashing.md",
     "Data Structures/CO4.md",
-    "Data Structures/Algorithms/SearchBST.md",
+    "Data Structures/Algorithms/Check if the Graph is Connected.md",
+    "Board.md",
+    "Untitled Kanban.md",
     "Web Technology/CA2.md",
-    "Data Structures/Algorithms/Untitled.md",
     "Data Structures/Algorithms/Breadth First Search.md",
     "Data Structures/Algorithms/Binary Search.md",
     "Data Structures/Algorithms/DFS and BFS Trace.md",
     "Data Structures/Algorithms/Depth First Search.md",
-    "Data Structures/Algorithms/InsertBST.md",
-    "Data Structures/Algorithms/Reverse a Singly Linked List.md",
     "Data Structures/Algorithms/DeleteBST.md",
-    "Data Structures/Algorithms/Check if the Graph is Connected.md",
     "Data Structures/Algorithms",
     "DSA/2047. number-of-valid-words-in-a-sentence.md",
     "Statistics/One sided and Two sides hypothesis.md",
     "Statistics",
     "Data Structures",
     "DSA/Rotate Matrix.md",
-    "Board.md",
     "1/Links.md",
     "SPC/SPC.md",
     "SPC",
@@ -226,8 +228,6 @@
     "LMS",
     "App/App.md",
     "Resources/The Black Box Effect.md",
-    "Resources/Get Started with Drizzle and Supabase.md",
-    "Biometrics/Biometrics - Unit - III.md",
     "dotNET/attachments/WhatsApp Image 2025-04-03 at 17.55.07_4817f2d3.jpg",
     "dotNET/attachments",
     "Web Technology/attachments/Pasted image 20250107172852.png",
