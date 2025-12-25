@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SPC/DSL vs MPL.md",
+                "file": "SPC/Patterns vs Frameworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DSL vs MPL"
+              "title": "Patterns vs Frameworks"
             }
           }
         ]
@@ -197,6 +197,7 @@
   "active": "28791c93f3efaf11",
   "lastOpenFiles": [
     "SPC/DSL vs MPL.md",
+    "SPC/Patterns vs Frameworks.md",
     "SPC/System vs Scripting.md",
     "SPC/Static vs Dynamic Libraries.md",
     "SPC/Scripting vs Markup Languages.md",
@@ -227,7 +228,6 @@
     "Data Structures/Questions",
     "Data Structures/Algorithms/SearchBST.md",
     "Data Structures/CO4.md",
-    "Board.md",
     "Data Structures/Algorithms",
     "Statistics",
     "Data Structures",

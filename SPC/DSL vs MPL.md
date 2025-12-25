@@ -1,18 +1,18 @@
 ## Multi-paradigm Languages vs Domain-specific Languages (DSLs)
 
-| **Aspect**        | **Multi-paradigm Languages**<br>(e.g., Python, JavaScript, C++, Scala) | **Domain-specific Languages (DSLs)**<br>(e.g., SQL, HTML, Verilog, Regex) |
-|-------------------|------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **Definition**    | Support multiple programming paradigms (OOP, functional, procedural, etc.) in one language | Designed for a specific problem domain or task                            |
-| **Examples**      | Python (OOP, procedural, functional), C++ (procedural, OOP, generic), Scala (OOP & functional), JavaScript | SQL (databases), HTML (web markup), Verilog (hardware design), Regex (pattern matching) |
-| **Flexibility**   | Very flexible; can solve a wide variety of problems                    | Limited to domain; highly expressive within its domain                   |
-| **Syntax**        | General-purpose, complex, supports many features                       | Often simple, concise, and tailored to domain                            |
-| **Learning Curve**| Moderate to steep, but knowledge applies broadly                       | Usually shallow for those familiar with the domain; steeper otherwise    |
-| **Use-Cases**     | Software engineering, applications spanning multiple problem domains    | Solving domain-specific problems: queries, markup, hardware design, configuration |
-| **Extensibility** | Easily extended for new kinds of problems                              | Rarely extensible beyond original domain                                 |
-| **Performance**   | General-purpose; may trade specialization for flexibility               | Highly optimized for domain tasks                                        |
-| **Tooling/Support** | Extensive tools, libraries, and ecosystem                            | Limited to tools relevant to specific domain                             |
-| **When to Use**   | When building complex, adaptable, reusable, or general applications     | When expressing or solving problems in a narrow, well-defined domain     |
-| **Examples in Practice** | Building web apps, GUIs, servers, games using OOP, procedural, or functional | Writing database queries (SQL), webpage structure (HTML), hardware circuits (VHDL/Verilog), text patterns (Regex) |
+| **Aspect**               | **Multi-paradigm Languages**<br>(e.g., Python, JavaScript, C++, Scala)                                     | **Domain-specific Languages (DSLs)**<br>(e.g., SQL, HTML, Verilog, Regex)                                         |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Definition**           | Support multiple programming paradigms (OOP, functional, procedural, etc.) in one language                 | Designed for a specific problem domain or task                                                                    |
+| **Examples**             | Python (OOP, procedural, functional), C++ (procedural, OOP, generic), Scala (OOP & functional), JavaScript | SQL (databases), HTML (web markup), Verilog (hardware design), Regex (pattern matching)                           |
+| **Flexibility**          | Very flexible; can solve a wide variety of problems                                                        | Limited to domain; highly expressive within its domain                                                            |
+| **Syntax**               | General-purpose, complex, supports many features                                                           | Often simple, concise, and tailored to domain                                                                     |
+| **Learning Curve**       | Moderate to steep, but knowledge applies broadly                                                           | Usually shallow for those familiar with the domain; steeper otherwise                                             |
+| **Use-Cases**            | Software engineering, applications spanning multiple problem domains                                       | Solving domain-specific problems: queries, markup, hardware design, configuration                                 |
+| **Extensibility**        | Easily extended for new kinds of problems                                                                  | Rarely extensible beyond original domain                                                                          |
+| **Performance**          | General-purpose; may trade specialization for flexibility                                                  | Highly optimized for domain tasks                                                                                 |
+| **Tooling/Support**      | Extensive tools, libraries, and ecosystem                                                                  | Limited to tools relevant to specific domain                                                                      |
+| **When to Use**          | When building complex, adaptable, reusable, or general applications                                        | When expressing or solving problems in a narrow, well-defined domain                                              |
+| **Examples in Practice** | Building web apps, GUIs, servers, games using OOP, procedural, or functional                               | Writing database queries (SQL), webpage structure (HTML), hardware circuits (VHDL/Verilog), text patterns (Regex) |
 
 ---
 
