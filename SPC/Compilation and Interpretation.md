@@ -16,7 +16,7 @@
 
 ---
 
-## Summary for Exam
+## Summary 
 
 - **Compiled languages** translate code to machine instructions and run fast, but require compilation for changes and limited portability.
 - **Interpreted languages** run code directly with slower performance, but offer flexibility, portability, and easier debugging.
