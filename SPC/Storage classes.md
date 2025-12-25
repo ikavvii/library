@@ -1,3 +1,4 @@
+
 |Feature|**auto**|**static (internal)**|**static (external)**|**extern**|**register**|
 |---|---|---|---|---|---|
 |**Scope**|Block/Local|Block/Function|File|Global (multi-file)|Block/Local|
