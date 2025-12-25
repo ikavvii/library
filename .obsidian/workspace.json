@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#include",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,8 +194,9 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "77b15d39adb6d283",
+  "active": "736c05401710099d",
   "lastOpenFiles": [
+    "SPC/Arrays vs Structures.md",
     "SPC/Call by value and Call by reference.md",
     "SPC/Macros and Functions.md",
     "SPC/Structure vs Unions.md",
@@ -223,7 +223,6 @@
     "Data Structures/Algorithms/Depth First Search.md",
     "Data Structures/Algorithms/DeleteBST.md",
     "Data Structures/Algorithms/Check if the Graph is Connected.md",
-    "Data Structures/Algorithms/Breadth First Search.md",
     "Data Structures/Questions/attachments/Pasted image 20251218213341.png",
     "Data Structures/Questions/attachments/Pasted image 20251218211224.png",
     "Data Structures/Questions/attachments/Pasted image 20251218205651.png",
