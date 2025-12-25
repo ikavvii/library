@@ -36,9 +36,7 @@ Structured programming is a programming paradigm aimed at improving the clarity,
 - Facilitates teamwork and collaboration.
 - Makes code reusable and scalable.
 
-If you want examples or details about any specific concept, let me know!
 
-===
 
 Programming languages have several key characteristics that define how they work and how they are used. Here are the main characteristics:
 
@@ -89,11 +87,4 @@ Programming languages have several key characteristics that define how they work
 
 ### 13. *Security*
 - Features that help protect programs from malicious actions or unintended errors.
-
 ---
-
-If you need more details or examples about any of these characteristics, let me know!
-
-
-===
-

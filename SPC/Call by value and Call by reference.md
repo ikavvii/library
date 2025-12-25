@@ -29,7 +29,7 @@
 | printf("Outside: %d\n", x); | printf("Outside: %d\n", x);   |
 | return 0;                   | return 0;                     |
 | }                           | }                             |
-|                             | ``                            |
+|                             |                               |
 | **Output:**                 | **Output:**                   |
 | Inside: 6                   | Inside: 6                     |
 | Outside: 5                  | Outside: 6                    |
