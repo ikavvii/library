@@ -7,8 +7,7 @@
 | **Total Size**     | **Sum** of sizes of all members (plus padding)            | **Size of the largest member** (plus padding)            |
 | **Member Access**  | Can access **all members at the same time**               | Can access **only one member at a time**                 |
 | **Data Storage**   | Stores **multiple values simultaneously**                 | Stores **one value at a time**                           |
-| **Example**        |                                                           |                                                          |
-|                    | <pre>struct Example {<br> int a;<br> float b;<br>};</pre> | <pre>union Example {<br> int a;<br> float b;<br>};</pre> |
+| Example            | <pre>struct Example {<br> int a;<br> float b;<br>};</pre> | <pre>union Example {<br> int a;<br> float b;<br>};</pre> |
 | **Access Example** | `ex.a = 5; ex.b = 3.2;` (both valid independently)        | `ex.a = 5; ex.b = 3.2;` (second access overwrites first) |
 | **Usage Scenario** | When different types of data are needed **together**      | When only **one** variable is used at a time             |
 | **Example Output** | Both `ex.a` and `ex.b` retain their values                | Only the last stored value is reliable                   |
