@@ -1,5 +1,3 @@
-
-
 ## **Relationship between Arrays and Pointers in C**
 
 | **Aspect**       | **Arrays**                                                                | **Pointers**                                                                | **Relation/Explanation**                                                                |
