@@ -1,12 +1,12 @@
 ## Storage Classes in C
 
-| **Storage Class** | **Keyword**  | **Scope (Visibility)**     | **Lifetime (Duration)**      | **Default Value**      | **Memory Location**   | **Example**              |
-|-------------------|--------------|----------------------------|------------------------------|------------------------|-----------------------|--------------------------|
-| **Automatic**     | `auto`       | Local to block/function    | Block/function execution     | Garbage/undefined      | Stack                 | `auto int a;`            |
-| **Register**      | `register`   | Local to block/function    | Block/function execution     | Garbage/undefined      | CPU Register/Stack    | `register int a;`        |
-| **Static (local/internal)** | `static`      | Local to block/function    | Entire program               | Zero (0)               | Data segment (global/static area) | `static int a;`    |
-| **Static (global/external)** | `static`      | File scope                 | Entire program               | Zero (0)               | Data segment (global/static area) | `static int a = 5;` (outside all functions) |
-| **Extern (External)** | `extern`      | Global (across files)        | Entire program               | Zero (0)               | Data segment (global/static area) | `extern int a;`          |
+| **Storage Class**            | **Keyword** | **Scope (Visibility)**  | **Lifetime (Duration)**  | **Default Value** | **Memory Location**               | **Example**                                 |
+| ---------------------------- | ----------- | ----------------------- | ------------------------ | ----------------- | --------------------------------- | ------------------------------------------- |
+| **Automatic**                | `auto`      | Local to block/function | Block/function execution | Garbage/undefined | Stack                             | `auto int a;`                               |
+| **Register**                 | `register`  | Local to block/function | Block/function execution | Garbage/undefined | CPU Register/Stack                | `register int a;`                           |
+| **Static (local/internal)**  | `static`    | Local to block/function | Entire program           | Zero (0)          | Data segment (global/static area) | `static int a;`                             |
+| **Static (global/external)** | `static`    | File scope              | Entire program           | Zero (0)          | Data segment (global/static area) | `static int a = 5;` (outside all functions) |
+| **Extern (External)**        | `extern`    | Global (across files)   | Entire program           | Zero (0)          | Data segment (global/static area) | `extern int a;`                             |
 
 ---
 

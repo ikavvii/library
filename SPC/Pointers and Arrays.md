@@ -1,26 +1,26 @@
 ## **Relationship between Arrays and Pointers in C**
 
-| **Aspect**       | **Arrays**                                                                | **Pointers**                                                                | **Relation/Explanation**                                                                |
-|------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Definition**   | Collection of elements of same type, stored at contiguous memory         | Variable that stores the address of another variable                        | Array name gives base address (pointer to first element)                                  |
-| **Declaration**  | `int arr[5];`                                                            | `int *ptr;`                                                                | Can assign: `ptr = arr;`                                                                 |
-| **Access**       | `arr[i]`                                                                 | `*(ptr + i)`                                                               | `arr[i]` is equal to `*(arr + i)`                                                        |
-| **Array Name**   | Acts as constant pointer to first element (`&arr[0]`)                    | Can point anywhere, value can change                                        | `arr` & `&arr[0]` give the same value; `arr = ptr` not allowed                           |
-| **Memory**       | Fixed, contiguous block allocated                                        | Can point to any single variable or array element                           | Pointer can traverse array using arithmetic                                              |
-| **Input Example**| `scanf("%d", &arr[0]);`                                                  | `scanf("%d", ptr);` after `ptr = arr;`                                     | Both store value at same place                                                            |
+| **Aspect**        | **Arrays**                                                       | **Pointers**                                         | **Relation/Explanation**                                       |
+| ----------------- | ---------------------------------------------------------------- | ---------------------------------------------------- | -------------------------------------------------------------- |
+| **Definition**    | Collection of elements of same type, stored at contiguous memory | Variable that stores the address of another variable | Array name gives base address (pointer to first element)       |
+| **Declaration**   | `int arr[5];`                                                    | `int *ptr;`                                          | Can assign: `ptr = arr;`                                       |
+| **Access**        | `arr[i]`                                                         | `*(ptr + i)`                                         | `arr[i]` is equal to `*(arr + i)`                              |
+| **Array Name**    | Acts as constant pointer to first element (`&arr[0]`)            | Can point anywhere, value can change                 | `arr` & `&arr[0]` give the same value; `arr = ptr` not allowed |
+| **Memory**        | Fixed, contiguous block allocated                                | Can point to any single variable or array element    | Pointer can traverse array using arithmetic                    |
+| **Input Example** | `scanf("%d", &arr[0]);`                                          | `scanf("%d", ptr);` after `ptr = arr;`               | Both store value at same place                                 |
 
 ---
 
 ## **Pointer Arithmetic Table**
 
-| **Operation**                            | **Example**                     | **Result/Explanation**                                               |
-|------------------------------------------|---------------------------------|----------------------------------------------------------------------|
-| Pointer increment (`ptr++`)              | `ptr = arr; ptr++;`             | `ptr` now points to next element (`arr[1]`) (adds size of type)      |
-| Pointer decrement (`ptr--`)              | `ptr = arr + 3; ptr--;`         | `ptr` now points to previous element (`arr[2]`)                      |
-| Addition (`ptr + n`)                     | `ptr = arr; ptr = ptr + 2;`     | `ptr` now points to `arr[2]`                                         |
-| Subtraction (`ptr - n`)                  | `ptr = arr + 4; ptr = ptr - 2;` | `ptr` now points to `arr[2]`                                         |
-| Difference (`ptr2 - ptr1`)               | `ptr1 = &arr[1]; ptr2 = &arr[4]; diff = ptr2 - ptr1;`    | `diff == 3` (number of elements apart, not bytes)                    |
-| Dereferencing (`*ptr`)                   | `ptr = arr + 2; value = *ptr;`  | `value` is `arr[2]`                                                  |
+| **Operation**               | **Example**                                           | **Result/Explanation**                                          |
+| --------------------------- | ----------------------------------------------------- | --------------------------------------------------------------- |
+| Pointer increment (`ptr++`) | `ptr = arr; ptr++;`                                   | `ptr` now points to next element (`arr[1]`) (adds size of type) |
+| Pointer decrement (`ptr--`) | `ptr = arr + 3; ptr--;`                               | `ptr` now points to previous element (`arr[2]`)                 |
+| Addition (`ptr + n`)        | `ptr = arr; ptr = ptr + 2;`                           | `ptr` now points to `arr[2]`                                    |
+| Subtraction (`ptr - n`)     | `ptr = arr + 4; ptr = ptr - 2;`                       | `ptr` now points to `arr[2]`                                    |
+| Difference (`ptr2 - ptr1`)  | `ptr1 = &arr[1]; ptr2 = &arr[4]; diff = ptr2 - ptr1;` | `diff == 3` (number of elements apart, not bytes)               |
+| Dereferencing (`*ptr`)      | `ptr = arr + 2; value = *ptr;`                        | `value` is `arr[2]`                                             |
 
 ### **Rules:**  
 - Pointer arithmetic is based on the **size of the data type**.
@@ -59,13 +59,13 @@ Difference: 1
 
 ### **Summary Table**
 
-| Statement             | Meaning                           |
-|-----------------------|-----------------------------------|
-| `arr[i]`              | Equivalent to `*(arr + i)`        |
-| `ptr = arr;`          | Points to `arr[0]`                |
-| `*(ptr + i)`          | Value at `arr[i]`                 |
-| `ptr++`               | Move pointer to next element      |
-| `ptr2 - ptr1`         | Number of elements between them   |
+| Statement     | Meaning                         |
+| ------------- | ------------------------------- |
+| `arr[i]`      | Equivalent to `*(arr + i)`      |
+| `ptr = arr;`  | Points to `arr[0]`              |
+| `*(ptr + i)`  | Value at `arr[i]`               |
+| `ptr++`       | Move pointer to next element    |
+| `ptr2 - ptr1` | Number of elements between them |
 
 ---
 

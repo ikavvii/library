@@ -1,15 +1,15 @@
 ## Memory Requirements: 2D Arrays vs. Array of Pointers for Strings
 
-| **Aspect**                 | **2D Array of Characters (Static)**                                        | **Array of Pointers to Strings (Dynamic)**                               |
-|----------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| **Declaration Example**    | `char arr[n][m];` <br>(n = number of strings, m = max chars per string)    | `char *arr[n];` <br>each `arr[i] = malloc(strlen + 1);`                  |
-| **Memory Allocated**       | Fixed at compile-time: **n × m bytes**                                     | n × (pointer size) + sum of string lengths + n (for null terminators)    |
-| **Allocation Type**        | Static (contiguous block for all chars)                                    | Dynamic (separate heap block for each string)                            |
-| **Flexibility**            | Fixed number and length of strings                                         | Number of strings fixed, but string length can vary                      |
-| **Space Waste?**           | Possible (if strings shorter than `m`, unused chars are wasted)            | No space wasted (each string uses only needed bytes)                     |
-| **Access**                 | `arr[i][j]`                                                                | `arr[i][j]` or with pointer arithmetic                                   |
-| **Pointer Storage**        | None (only characters stored)                                              | `n × (size of pointer)` (each pointer stored separately)                 |
-| **Total Memory Formula**   | **n × m × size of char** (`sizeof(char)` usually 1 byte)                   | **n × pointer_size** + <br>∑(length of each string + 1 for '\0')         |
+| **Aspect**               | **2D Array of Characters (Static)**                                     | **Array of Pointers to Strings (Dynamic)**                            |
+| ------------------------ | ----------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Declaration Example**  | `char arr[n][m];` <br>(n = number of strings, m = max chars per string) | `char *arr[n];` <br>each `arr[i] = malloc(strlen + 1);`               |
+| **Memory Allocated**     | Fixed at compile-time: **n × m bytes**                                  | n × (pointer size) + sum of string lengths + n (for null terminators) |
+| **Allocation Type**      | Static (contiguous block for all chars)                                 | Dynamic (separate heap block for each string)                         |
+| **Flexibility**          | Fixed number and length of strings                                      | Number of strings fixed, but string length can vary                   |
+| **Space Waste?**         | Possible (if strings shorter than `m`, unused chars are wasted)         | No space wasted (each string uses only needed bytes)                  |
+| **Access**               | `arr[i][j]`                                                             | `arr[i][j]` or with pointer arithmetic                                |
+| **Pointer Storage**      | None (only characters stored)                                           | `n × (size of pointer)` (each pointer stored separately)              |
+| **Total Memory Formula** | **n × m × size of char** (`sizeof(char)` usually 1 byte)                | **n × pointer_size** + <br>∑(length of each string + 1 for '\0')      |
 
 ---
 
