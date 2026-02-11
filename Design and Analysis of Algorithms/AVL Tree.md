@@ -44,7 +44,7 @@
 
 **When**: Left subtree of left child causes imbalance (BF = +2)
 
-Code
+
 
 ```
       z (BF=+2)                y
@@ -58,7 +58,7 @@ Code
 
 **When**: Right subtree of right child causes imbalance (BF = -2)
 
-Code
+
 
 ```
   z (BF=-2)                  y
@@ -72,7 +72,7 @@ Code
 
 **When**: Right subtree of left child causes imbalance (BF = +2, left child BF = -1)
 
-Code
+
 
 ```
     z (BF=+2)              z              x
@@ -88,7 +88,7 @@ Code
 
 **When**: Left subtree of right child causes imbalance (BF = -2, right child BF = +1)
 
-Code
+
 
 ```
   z (BF=-2)              z                x
