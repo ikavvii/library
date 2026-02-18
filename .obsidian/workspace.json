@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a6425e6240ec8120",
+        "id": "026cea8e5ff952c7",
         "type": "tabs",
         "children": [
           {
-            "id": "e1ca07a652f92d54",
+            "id": "d30a7ea85976a41c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/SDLC Models.md",
+                "file": "AI/Algorithms/A⭐ Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SDLC Models"
+              "title": "A⭐ Algorithm"
             }
           }
         ]
@@ -194,19 +194,24 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "e1ca07a652f92d54",
+  "active": "d30a7ea85976a41c",
   "lastOpenFiles": [
+    "AI/Algorithms/A⭐ Algorithm.md",
+    "AI/Algorithms/attachments/Pasted image 20260217215416.png",
+    "AI/Algorithms/attachments",
+    "AI/Algorithms",
+    "AI/🧠 Agentic AI Domain.md",
+    "dotNET/dot NET Architecture.md",
+    "Design and Analysis of Algorithms/B Tree.md",
     "Design and Analysis of Algorithms/AVL Tree.md",
+    "Design and Analysis of Algorithms/attachments/Pasted image 20260122211243.png",
     "Software Engineering/SDLC Models.md",
     "Software Engineering",
-    "Design and Analysis of Algorithms/B Tree.md",
-    "Design and Analysis of Algorithms/attachments/Pasted image 20260122211243.png",
     "Design and Analysis of Algorithms/attachments",
     "Data Structures/Linked List Worksheet.md",
     "Data Structures/Hashing.md",
     "Data Structures/Questions/Hashing.md",
     "Data Structures/Questions/Binary Search.md",
-    "AI/🧠 Agentic AI Domain.md",
     "AI/IMPACTS AND INFLUENCES OF AI.md",
     "AI/Notes/Definition.md",
     "Untitled 1",
@@ -225,9 +230,6 @@
     "Web Technology/Assignment - 2.md",
     "Web Technology/Syllabus.md",
     "Web Technology/Programs.md",
-    "Web Technology/PHP get_result undefined.md",
-    "Web Technology/Notes.md",
-    "Web Technology/CA2.md",
     "Operating Systems/worksheets/attachments/Pasted image 20260103110652.png",
     "Operating Systems/worksheets/attachments",
     "Operating Systems/worksheets",
@@ -235,14 +237,11 @@
     "Data Structures/Questions/attachments/Pasted image 20251218213341.png",
     "Data Structures/Questions/attachments/Pasted image 20251218211224.png",
     "Data Structures/Questions/attachments/Pasted image 20251218205651.png",
-    "Data Structures/Questions/attachments",
-    "Data Structures/Questions",
     "dotNET/attachments/WhatsApp Image 2025-04-03 at 17.55.07_4817f2d3.jpg",
     "Web Technology/attachments/Pasted image 20250107172852.png",
     "Data and Communication networks/hybrid topology.canvas",
     "AI/attachments/Kavin's Work.png",
     "Biometrics/attachments/Pasted image 20250213224433.png",
-    "Biometrics/attachments/Pasted image 20250213224056.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
