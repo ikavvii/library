@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "056b8f8461a305db",
+    "id": "67c0a35690cc9601",
     "type": "split",
     "children": [
       {
-        "id": "c79120fa9bec0cf5",
+        "id": "87ec79d4f7704697",
         "type": "tabs",
         "children": [
           {
-            "id": "5ba98127dee41e6d",
+            "id": "27197a86eb7497f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/SDLC Models.md",
+                "file": "Design and Analysis of Algorithms/Backtracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SDLC Models"
+              "title": "Backtracking"
             }
           }
         ]
@@ -27,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bc59fb5b816b0e28",
+    "id": "9af75bd15625f270",
     "type": "split",
     "children": [
       {
-        "id": "ddc0de1c308745bb",
+        "id": "4cc3f076b3193180",
         "type": "tabs",
         "children": [
           {
-            "id": "6d769a505005d5a2",
+            "id": "3ed2f9b071e1a85b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
           },
           {
-            "id": "77b15d39adb6d283",
+            "id": "7fe27ccb6b445b0f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "6bca8eb4291b3a17",
+            "id": "90fafa4ff423c293",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,25 +78,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.51103591918945
+    "width": 300
   },
   "right": {
-    "id": "a2efc1bf3c4ef1d0",
+    "id": "66483f4bc90a0708",
     "type": "split",
     "children": [
       {
-        "id": "b8086984aa016e3e",
+        "id": "a1e16375425c30d3",
         "type": "tabs",
         "children": [
           {
-            "id": "bf1d22b0e48e14c6",
+            "id": "0b5465f2d8f6cd94",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud Computing/17-10-2024.md",
+                "file": "Design and Analysis of Algorithms/Backtracking.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -104,52 +104,39 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 17-10-2024"
+              "title": "Backlinks for Backtracking"
             }
           },
           {
-            "id": "a379a64939d6085a",
+            "id": "e4571259f49c8633",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operating Systems/OS Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from OS Notes"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "1f3634f518e89a67",
+            "id": "f54ee6be5c7df694",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "4111a9f703963b41",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "db248921502f7011",
+            "id": "037746ba7d5c5dec",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -163,26 +150,28 @@
             }
           },
           {
-            "id": "d9cff9575a7a91d5",
+            "id": "f779676fd99605a8",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 290.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -190,60 +179,23 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "bases:Create new base": false
     }
   },
-  "active": "5ba98127dee41e6d",
+  "active": "27197a86eb7497f3",
   "lastOpenFiles": [
-    "Software Engineering/Requirements Gathering and Analysis.md",
-    "AI/PRESERVING HERITAGE IN THE DIGITAL ERA.md",
-    "AI/index.md",
-    "AI/IMPACTS AND INFLUENCES OF AI.md",
-    "Design and Analysis of Algorithms/Practice test.md",
-    "Data Structures/Algorithms/DeleteBST.md",
-    "Data Structures/Algorithms/SearchBST.md",
-    "Data Structures/Algorithms/Binary Search.md",
-    "Data Structures/Algorithms/Breadth First Search.md",
-    "Design and Analysis of Algorithms/AVL Tree.md",
-    "Software Engineering/requirement gathering.md",
-    "Software Engineering/attachments/Pasted image 20260224213707.png",
-    "Software Engineering/attachments/Pasted image 20260224213626.png",
-    "Software Engineering/attachments/Pasted image 20260224213545.png",
-    "Software Engineering/attachments/Pasted image 20260224213358.png",
-    "Software Engineering/V and RUP Model.md",
-    "Software Engineering/SDLC Models.md",
-    "Resources/The Black Box Effect.md",
-    "Resources/Get Started with Drizzle and Supabase.md",
-    "Software Engineering/attachments/Pasted image 20260219214315.png",
-    "Software Engineering/attachments",
-    "Design and Analysis of Algorithms/Algorithms/Ternary Search.md",
-    "Design and Analysis of Algorithms/Algorithms",
-    "Enterprise Computing using Full-Stack/Objects.md",
-    "Enterprise Computing using Full-Stack",
-    "Flutter/Google sign in.md",
+    "Design and Analysis of Algorithms/Backtracking.md",
     "AI/Algorithms/A⭐ Algorithm.md",
-    "AI/Algorithms/attachments/Pasted image 20260217215416.png",
-    "AI/Algorithms/attachments",
-    "AI/Algorithms",
-    "AI/🧠 Agentic AI Domain.md",
-    "dotNET/dot NET Architecture.md",
+    "Design and Analysis of Algorithms/Practice test.md",
+    "Design and Analysis of Algorithms/AVL Tree.md",
     "Design and Analysis of Algorithms/B Tree.md",
-    "Design and Analysis of Algorithms/attachments/Pasted image 20260122211243.png",
-    "Software Engineering",
-    "Design and Analysis of Algorithms/attachments",
-    "Data Structures/Linked List Worksheet.md",
-    "Data Structures/Hashing.md",
-    "Data Structures/Questions/Hashing.md",
-    "Data Structures/Questions/Binary Search.md",
-    "Untitled 1",
-    "Design and Analysis of Algorithms",
-    "AI/Notes",
-    "Operating Systems/worksheets/attachments/Pasted image 20260103110652.png",
-    "Data Structures/Questions/attachments/Pasted image 20251218213341.png",
-    "Data Structures/Questions/attachments/Pasted image 20251218211224.png",
-    "Data and Communication networks/hybrid topology.canvas",
-    "Untitled.canvas",
-    "Untitled 1.canvas"
+    "Kavin Docs/U22BCA141.md",
+    "LMS/LMS.md",
+    "Java/Java Notes.md",
+    "Java/Lab/Model Lab Practice.md",
+    "Java/End Semester.md",
+    "Java/main-lab.md",
+    "Java/Programs.md",
+    "Java/Syllabus.md"
   ]
 }

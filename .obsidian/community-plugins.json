@@ -1,8 +1,7 @@
 [
-  "obsidian-link-converter",
-  "better-export-pdf",
+  "highlightr-plugin",
   "obsidian-git",
   "obsidian-icon-folder",
-  "obsidian-kanban",
-  "highlightr-plugin"
+  "better-export-pdf",
+  "obsidian-link-converter"
 ]
