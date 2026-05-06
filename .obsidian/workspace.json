@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "87ec79d4f7704697",
+        "id": "e7d6f3a47fc6862d",
         "type": "tabs",
         "children": [
           {
-            "id": "27197a86eb7497f3",
+            "id": "d62ba90f4172d369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/Backtracking/Sum of Subsets.md",
+                "file": "Interview/Top 100 Coding Interview Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sum of Subsets"
+              "title": "Top 100 Coding Interview Questions"
             }
           }
         ]
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design and Analysis of Algorithms/Backtracking/Sum of Subsets.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sum of Subsets"
+              "title": "Backlinks"
             }
           },
           {
@@ -183,10 +182,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27197a86eb7497f3",
+  "active": "d62ba90f4172d369",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
+    "LMS/LMS.md",
+    "Interview/Top 100 Coding Interview Questions.md",
+    "Interview",
     "Design and Analysis of Algorithms/Backtracking/Sum of Subsets.md",
+    "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
     "Design and Analysis of Algorithms/Backtracking/Backtracking.md",
     "Design and Analysis of Algorithms/Backtracking",
     "AI/Algorithms/A⭐ Algorithm.md",
@@ -194,7 +196,6 @@
     "Design and Analysis of Algorithms/AVL Tree.md",
     "Design and Analysis of Algorithms/B Tree.md",
     "Kavin Docs/U22BCA141.md",
-    "LMS/LMS.md",
     "Java/Java Notes.md",
     "Java/Lab/Model Lab Practice.md",
     "Java/End Semester.md",
