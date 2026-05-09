@@ -11,10 +11,14 @@
             "id": "6e50f48d3b2ff895",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/UML OOAD/Activity Chart.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Activity Chart"
             }
           }
         ]
@@ -180,6 +184,15 @@
   },
   "active": "6e50f48d3b2ff895",
   "lastOpenFiles": [
+    "Software Engineering/UML OOAD/attachments/Pasted image 20260509214406.png",
+    "Software Engineering/UML OOAD/attachments/Pasted image 20260509214402.png",
+    "Software Engineering/UML OOAD/attachments",
+    "Software Engineering/UML OOAD/Assertions.md",
+    "Software Engineering/UML OOAD/Activity Chart.md",
+    "Software Engineering/UML OOAD/CO3 Design and UML Modeling.md",
+    "Software Engineering/SW Testing/CO4 Software Testing.md",
+    "Software Engineering/SW Testing",
+    "Software Engineering/UML OOAD",
     "Interview/Top 100 Coding Interview Questions.md",
     "LMS/LMS.md",
     "Interview",
