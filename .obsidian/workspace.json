@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
+                "file": "Design and Analysis of Algorithms/Dynamic Programming/String Edit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0 1 Knapsack Problem"
+              "title": "String Edit"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "4a7b1e5373774777",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/Dynamic Programming/Multistage Graph.md",
     "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/Multistage Graph.md",
     "Design and Analysis of Algorithms/Dynamic Programming/All Pairs (Floyd-Warshall).md",
     "Design and Analysis of Algorithms/Dynamic Programming/LCS.md",
     "Design and Analysis of Algorithms/Dynamic Programming/Principle of Optimality.md",
