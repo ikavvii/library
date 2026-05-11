@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3ea842c97a966259",
+        "id": "940eea8845ca24fa",
         "type": "tabs",
         "children": [
           {
-            "id": "62195f3b8aef2b9a",
+            "id": "7d729b7a366fe7b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Software Engineering/UML OOAD/Class and Object Diagram.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Class and Object Diagram"
+              "title": "New tab"
             }
           }
         ]
@@ -182,8 +178,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "62195f3b8aef2b9a",
+  "active": "7d729b7a366fe7b8",
   "lastOpenFiles": [
+    "Software Engineering/UML OOAD/Coffee Vending Machine.md",
+    "Software Engineering/CO 3 & CO 4.md",
+    "Software Engineering/UML OOAD/attachments/Pasted image 20260511210721.png",
+    "Software Engineering/UML OOAD/attachments/Pasted image 20260511210655.png",
     "Software Engineering/UML OOAD/Class and Object Diagram.md",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511205800.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511205613.png",
@@ -225,7 +225,6 @@
     "LMS/LMS.md",
     "Interview",
     "Design and Analysis of Algorithms/Backtracking",
-    "AI/Algorithms/A⭐ Algorithm.md",
-    "Design and Analysis of Algorithms/Practice test.md"
+    "AI/Algorithms/A⭐ Algorithm.md"
   ]
 }
