@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "940eea8845ca24fa",
+        "id": "d777418a895f2cea",
         "type": "tabs",
         "children": [
           {
-            "id": "7d729b7a366fe7b8",
+            "id": "f8c5d3ae8cf7383e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -178,16 +178,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d729b7a366fe7b8",
+  "active": "f8c5d3ae8cf7383e",
   "lastOpenFiles": [
-    "Software Engineering/UML OOAD/Coffee Vending Machine.md",
+    "Software Engineering/SW Testing/Triangle Problem.md",
     "Software Engineering/CO 3 & CO 4.md",
+    "Software Engineering/SW Testing/CO4 Software Testing.md",
+    "Software Engineering/UML OOAD/CO3 Design and UML Modeling.md",
+    "Software Engineering/SW Testing/BVA vs Robust based testing.md",
+    "Software Engineering/SW Testing/BBT.md",
+    "Software Engineering/SW Testing/Path Testing.md",
+    "Software Engineering/SW Testing/WBT.md",
+    "Software Engineering/SW Testing/Concepts.md",
+    "Software Engineering/SW Testing/ATM Withdrawal Black Box Test Cases.md",
+    "Software Engineering/UML OOAD/Concepts.md",
+    "Software Engineering/UML OOAD/Coffee Vending Machine.md",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511210721.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511210655.png",
     "Software Engineering/UML OOAD/Class and Object Diagram.md",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511205800.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511205613.png",
-    "Software Engineering/UML OOAD/Concepts.md",
     "Placements/TCS/NQT.md",
     "Placements/TCS/attachments/Pasted image 20260511203211.png",
     "Placements/TCS/attachments/Pasted image 20260511203147.png",
@@ -202,29 +211,20 @@
     "Software Engineering/UML OOAD/Activity Chart.md",
     "Software Engineering/UML OOAD/Assertions.md",
     "Software Engineering/UML OOAD/UML Diagrams.md",
-    "Software Engineering/UML OOAD/CO3 Design and UML Modeling.md",
-    "Software Engineering/SW Testing/CO4 Software Testing.md",
     "Design and Analysis of Algorithms/Dynamic Programming/Multistage Graph.md",
     "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
     "Design and Analysis of Algorithms/Dynamic Programming/TSP.md",
     "Design and Analysis of Algorithms/Dynamic Programming/String Edit.md",
     "Design and Analysis of Algorithms/Dynamic Programming/All Pairs (Floyd-Warshall).md",
     "Design and Analysis of Algorithms/Dynamic Programming/LCS.md",
-    "Design and Analysis of Algorithms/Dynamic Programming/Principle of Optimality.md",
     "Design and Analysis of Algorithms/Branch and Bound",
-    "Design and Analysis of Algorithms/Backtracking/Sum of Subsets.md",
-    "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
-    "Design and Analysis of Algorithms/Backtracking/Backtracking.md",
     "Design and Analysis of Algorithms/Dynamic Programming",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260509214406.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260509214402.png",
     "Software Engineering/UML OOAD/attachments",
     "Software Engineering/SW Testing",
     "Software Engineering/UML OOAD",
-    "Interview/Top 100 Coding Interview Questions.md",
-    "LMS/LMS.md",
     "Interview",
-    "Design and Analysis of Algorithms/Backtracking",
-    "AI/Algorithms/A⭐ Algorithm.md"
+    "Design and Analysis of Algorithms/Backtracking"
   ]
 }

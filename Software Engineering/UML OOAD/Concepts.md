@@ -33,3 +33,4 @@ If coding for user interfaces does not follow established standards, such as Sch
 - **Cognitive Overload:** Not following standards to limit information chunks can **overload the user's short-term memory**, making interaction difficult.
 
 In summary, ignoring standards leads to a system that is **fragile, expensive to keep running, difficult to test, and frustrating for both the developers and the end-users**.
+
