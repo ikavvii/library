@@ -1,4 +1,4 @@
-What are the problems that might occur if the software engineers do not adhere to any of the **coding standards**?
+## What are the problems that might occur if the software engineers do not adhere to any of the **coding standards**?
 
 If software engineers do not adhere to design and coding standards, the primary consequences involve **increased costs**, **technical complexity**, and **system fragility**. 
 
@@ -26,7 +26,7 @@ Standards like the Unified Modelling Language (UML) provide a "standard language
 
 ### 5. Poor User Experience (HCI Standards)
 
-If coding for user interfaces does not follow established standards, such as Shneiderman’s Eight Golden Rules, the software will face usability issues:
+If coding for user interfaces does not follow established standards, such as Schneiderman’s Eight Golden Rules, the software will face usability issues:
 
 - **Inconsistency:** Lack of visual or behavioral consistency makes the interface harder to learn and handle cognitively.
 - **User Anxiety:** Failing to permit "easy reversal of actions" (like an Undo feature) increases "techno fear" and anxiety for the user.
