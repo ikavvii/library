@@ -11,10 +11,14 @@
             "id": "f8c5d3ae8cf7383e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Software Engineering/2 marks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2 marks"
             }
           }
         ]
@@ -180,6 +184,8 @@
   },
   "active": "f8c5d3ae8cf7383e",
   "lastOpenFiles": [
+    "Software Engineering/UML OOAD/Assertions.md",
+    "Software Engineering/2 marks.md",
     "Software Engineering/SW Testing/Triangle Problem.md",
     "Software Engineering/CO 3 & CO 4.md",
     "Software Engineering/SW Testing/CO4 Software Testing.md",
@@ -209,14 +215,12 @@
     "Software Engineering/UML OOAD/Sequence Diagram.md",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511065311.png",
     "Software Engineering/UML OOAD/Activity Chart.md",
-    "Software Engineering/UML OOAD/Assertions.md",
     "Software Engineering/UML OOAD/UML Diagrams.md",
     "Design and Analysis of Algorithms/Dynamic Programming/Multistage Graph.md",
     "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
     "Design and Analysis of Algorithms/Dynamic Programming/TSP.md",
     "Design and Analysis of Algorithms/Dynamic Programming/String Edit.md",
     "Design and Analysis of Algorithms/Dynamic Programming/All Pairs (Floyd-Warshall).md",
-    "Design and Analysis of Algorithms/Dynamic Programming/LCS.md",
     "Design and Analysis of Algorithms/Branch and Bound",
     "Design and Analysis of Algorithms/Dynamic Programming",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260509214406.png",
