@@ -132,7 +132,12 @@ _(Based on character stream examples in)_
 
 - **Multitasking Comparison:** 
 | Feature | Process-Based Multitasking | Thread-Based Multitasking | 
-| :--- | :--- | :--- | | **Definition** | Running two or more programs concurrently. | A single program running multiple threads. | | **Address Space** | Each process has its own address space. | Threads share the process's address space. | | **Resource Usage** | Heavyweight; no resource sharing. | Lightweight; share memory and resources. | | **Communication** | Inter-process communication (complex). | Methods like `wait()`, `notify()`, `notifyAll()`. | | **Performance** | Slower context switching. | Faster context switching. |
+| :--- | :--- | :--- | 
+| **Definition** | Running two or more programs concurrently. | A single program running multiple threads. | 
+| **Address Space** | Each process has its own address space. | Threads share the process's address space. | 
+| **Resource Usage** | Heavyweight; no resource sharing. | Lightweight; share memory and resources. | 
+| **Communication** | Inter-process communication (complex). | Methods like `wait()`, `notify()`, `notifyAll()`. | 
+| **Performance** | Slower context switching. | Faster context switching. |
     
 - **Systems Comparison:**
     
