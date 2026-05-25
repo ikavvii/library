@@ -1,0 +1,3 @@
+Simulated Annealing is a probabilistic optimization technique inspired by the metallurgical process of heating and slowly cooling metal to reach a low-energy, stable state. 
+
+In AI, its primary significance lies in its ability to **escape local minima** by occasionally accepting "bad" moves (moves that increase cost) with a probability that decreases as the "temperature" drops. This allows the algorithm to explore the search space more effectively than pure Hill Climbing to find a global minimum.

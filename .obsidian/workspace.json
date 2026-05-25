@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "77a0f8fa9c0d3188",
+        "id": "26d7e1c61c176bc9",
         "type": "tabs",
         "children": [
           {
-            "id": "09d24de53616d8b5",
+            "id": "693b7976d6b35eff",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enterprise Computing using Full-Stack/Co3 Co4/sync and async communication.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "sync and async communication"
+              "title": "New tab"
             }
           }
         ]
@@ -182,10 +178,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09d24de53616d8b5",
+  "active": "693b7976d6b35eff",
   "lastOpenFiles": [
-    "Enterprise Computing using Full-Stack/Co3 Co4/SOAP.md",
+    "Java/Exam.md",
+    "Java/Syllabus MCA.md",
+    "Java/Syllabus.md",
+    "Study/Prompt.md",
+    "AI/Exam.md",
+    "Design and Analysis of Algorithms/Exam.md",
+    "Design and Analysis of Algorithms/Syllabus.md",
+    "Design and Analysis of Algorithms/Untitled.canvas",
+    "Design and Analysis of Algorithms/Untitled.base",
+    "AI/Syllabus.md",
+    "Study",
+    "Design and Analysis of Algorithms/CO2/23MX22 (2).md",
+    "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260519200924.png",
+    "Design and Analysis of Algorithms/CO2/attachments",
+    "Design and Analysis of Algorithms/CO1/23MX22 (2).md",
+    "Design and Analysis of Algorithms/CO2",
+    "Design and Analysis of Algorithms/CO1/attachments/Pasted image 20260519171508.png",
+    "Design and Analysis of Algorithms/CO1/attachments",
+    "Design and Analysis of Algorithms/B Tree.md",
+    "Design and Analysis of Algorithms/CO1",
+    "Design and Analysis of Algorithms/Algorithms/Ternary Search.md",
+    "Design and Analysis of Algorithms/AVL Tree.md",
+    "Design and Analysis of Algorithms/Practice test.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/Fundamentals.md",
+    "AI/Co2/Simulated Annealing.md",
+    "AI/Co4",
+    "AI/Co2",
+    "AI/🧠 Agentic AI Domain.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/sync and async communication.md",
+    "Enterprise Computing using Full-Stack/Co3 Co4/SOAP.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/23MX24 (2).md",
     "Enterprise Computing using Full-Stack/Co3 Co4/23MX24 (3).md",
     "Enterprise Computing using Full-Stack/Co3 Co4/23MX24 epc-fs.md",
@@ -193,27 +217,8 @@
     "Enterprise Computing using Full-Stack/Co3 Co4/23MX24 (1).md",
     "Enterprise Computing using Full-Stack/Co3 Co4/API and Microservice.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/REST.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/MERN MEAN.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/SOAP REST.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/CA 2 Answers.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/CA Test 2.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/API and Web Service.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/SPA MPA.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/DOM and VDOM.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/Co4.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/Co3.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/Angular React.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/Untitled",
     "Enterprise Computing using Full-Stack/Co3 Co4",
-    "Enterprise Computing using Full-Stack/Objects.md",
-    "Placements/Amazon",
-    "Java/Co3 Co4/23MX23(1).md",
-    "Java/Co3 Co4/CO3 CO4.md",
-    "Java/Co3 Co4/Concepts.md",
-    "Java/Co3 Co4/Links.md",
-    "Java/Co3 Co4",
-    "Java/Java Notes.md",
-    "Java/IO Streams/IO Streams.md",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260512072525.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511210721.png",
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511210655.png",
@@ -221,14 +226,6 @@
     "Software Engineering/UML OOAD/attachments/Pasted image 20260511205613.png",
     "Placements/TCS/attachments/Pasted image 20260511203211.png",
     "Placements/TCS/attachments/Pasted image 20260511203147.png",
-    "Placements/TCS/attachments",
-    "Placements/TCS",
-    "Placements",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511065537.png",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511065311.png",
-    "Design and Analysis of Algorithms/Branch and Bound",
-    "Design and Analysis of Algorithms/Dynamic Programming",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260509214406.png",
-    "Software Engineering/UML OOAD/attachments"
+    "Software Engineering/UML OOAD/attachments/Pasted image 20260511065537.png"
   ]
 }
