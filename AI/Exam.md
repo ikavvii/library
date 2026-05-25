@@ -30,7 +30,7 @@
     - Explain PAGE (Percepts, Actions, Goals, Environment) factors for a specific robot/agent.
     - Pitfalls of Hill Climbing algorithm and their solutions.
 4. **High Priority Topics**
-    
+
     - __A_ Search Algorithm:_* Guaranteed marks; mandatory to practice graph traversal with $f(n) = g(n) + h(n)$.
     - **John McCarthy’s AI Definition:** Frequently asked as a 3-mark starter.
 5. **Low Priority Topics**
