@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO2/Quick sort.md",
+                "file": "Design and Analysis of Algorithms/CO2/CO2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quick sort"
+              "title": "CO2"
             }
           }
         ]
@@ -184,10 +184,15 @@
   },
   "active": "3ed2f9b071e1a85b",
   "lastOpenFiles": [
+    "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
+    "Design and Analysis of Algorithms/CO2/CO2.md",
+    "Design and Analysis of Algorithms/CO2/Merge sort.md",
+    "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
+    "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
+    "Design and Analysis of Algorithms/CO2/Quick sort.md",
+    "Design and Analysis of Algorithms/CO3/CO3.md",
     "Design and Analysis of Algorithms/Exam.md",
     "Design and Analysis of Algorithms/B Tree.md",
-    "Design and Analysis of Algorithms/CO2/CO2.md",
-    "Design and Analysis of Algorithms/CO2/Quick sort.md",
     "Design and Analysis of Algorithms/CO1/CO1.md",
     "Design and Analysis of Algorithms/CO1/Trie.md",
     "Design and Analysis of Algorithms/CO1/Tree comparisons.md",
@@ -195,9 +200,7 @@
     "Design and Analysis of Algorithms/CO1/AVL vs BST.md",
     "Design and Analysis of Algorithms/CO1/Asymptotic analysis.md",
     "Design and Analysis of Algorithms/CO1/23MX22 (2).md",
-    "Design and Analysis of Algorithms/CO2/Merge sort.md",
     "Design and Analysis of Algorithms/CO1/B+ Trees.md",
-    "Design and Analysis of Algorithms/CO3/CO3.md",
     "Design and Analysis of Algorithms/CO3",
     "Design and Analysis of Algorithms/AVL Tree.md",
     "AI/Co4/Mutually exclusive events.md",
@@ -209,8 +212,6 @@
     "AI/Co3/CNF DNF.md",
     "AI/Co3/Rules for Propositional Logic.md",
     "AI/Co3/Deduction theorem.md",
-    "AI/Co3/Resolution Principle.md",
-    "AI/Co3/Skolemization.md",
     "AI/Co3",
     "AI/Co2/attachments/Pasted image 20260527162639.png",
     "AI/Co2/attachments/Pasted image 20260527121106.png",
@@ -229,7 +230,6 @@
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260519200924.png",
     "Design and Analysis of Algorithms/CO2/attachments",
     "Design and Analysis of Algorithms/CO2",
-    "Design and Analysis of Algorithms/CO1/attachments/Pasted image 20260519171508.png",
     "Design and Analysis of Algorithms/CO1/attachments"
   ]
 }
