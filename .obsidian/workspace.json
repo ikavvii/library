@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "312df0e501508595",
+        "id": "ab25a3e2dc520a9d",
         "type": "tabs",
         "children": [
           {
-            "id": "46c6b77da4e8bfd7",
+            "id": "1f6090e509d3ae83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO1/CO1.md",
+                "file": "Design and Analysis of Algorithms/CO2/Merge sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CO1"
+              "title": "Merge sort"
             }
           }
         ]
@@ -182,11 +182,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46c6b77da4e8bfd7",
+  "active": "3ed2f9b071e1a85b",
   "lastOpenFiles": [
+    "Design and Analysis of Algorithms/CO3/CO3.md",
+    "Design and Analysis of Algorithms/CO2/Merge sort.md",
+    "Design and Analysis of Algorithms/CO2/CO2.md",
+    "Design and Analysis of Algorithms/CO1/CO1.md",
+    "Design and Analysis of Algorithms/CO3",
     "Design and Analysis of Algorithms/CO1/23MX22 (2).md",
     "Design and Analysis of Algorithms/AVL Tree.md",
-    "Design and Analysis of Algorithms/CO1/CO1.md",
     "Design and Analysis of Algorithms/Exam.md",
     "AI/Co4/Mutually exclusive events.md",
     "AI/Co4/CO4.md",
@@ -209,9 +213,6 @@
     "AI/Co2/Alpha-Beta Pruning.md",
     "AI/Co2/Problem Decomposition.md",
     "AI/Co2/attachments/Pasted image 20260527162639.png",
-    "AI/Co2/CSP.md",
-    "AI/Co2/Genetic Algorithm.md",
-    "AI/Co2/Map Coloring.md",
     "AI/Co2/attachments/Pasted image 20260527121106.png",
     "AI/Co2/attachments/Pasted image 20260527102723.png",
     "AI/Co2/attachments",
@@ -229,7 +230,6 @@
     "Design and Analysis of Algorithms/CO2/attachments",
     "Design and Analysis of Algorithms/CO2",
     "Design and Analysis of Algorithms/CO1/attachments/Pasted image 20260519171508.png",
-    "Design and Analysis of Algorithms/CO1/attachments",
-    "Design and Analysis of Algorithms/CO1"
+    "Design and Analysis of Algorithms/CO1/attachments"
   ]
 }
