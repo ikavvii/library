@@ -33,12 +33,12 @@ This question bank for **CO1 — Introduction & AI Search Algorithms** is compil
 
 ### **Frequency Analysis Table**
 
-|Topic|Frequency in Papers|Typical Marks|
-|:--|:--|:--|
-|__A_ Algorithm Trace_*|100% (4/4 papers)|10–15|
-|**DFS Trace**|75% (3/4 papers)|7–8|
-|**McCarthy’s AI Definition**|50% (2/4 papers)|3|
-|**Agent Labeled Diagrams**|50% (2/4 papers)|3–7|
-|**PAGE Factors**|50% (2/4 papers)|5|
-|**BFS Trace**|25% (1/4 papers)|7|
-|**Hill Climbing Pitfalls**|25% (1/4 papers)|5|
+| Topic                        | Frequency in Papers | Typical Marks |
+| :--------------------------- | :------------------ | :------------ |
+| __A_ Algorithm Trace_*       | 100% (4/4 papers)   | 10–15         |
+| **DFS Trace**                | 75% (3/4 papers)    | 7–8           |
+| **McCarthy’s AI Definition** | 50% (2/4 papers)    | 3             |
+| **Agent Labeled Diagrams**   | 50% (2/4 papers)    | 3–7           |
+| **PAGE Factors**             | 50% (2/4 papers)    | 5             |
+| **BFS Trace**                | 25% (1/4 papers)    | 7             |
+| **Hill Climbing Pitfalls**   | 25% (1/4 papers)    | 5             |

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "305bd2a355b3d544",
+        "id": "312df0e501508595",
         "type": "tabs",
         "children": [
           {
-            "id": "35442d6099b926db",
+            "id": "46c6b77da4e8bfd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Co1/A-star.md",
+                "file": "Design and Analysis of Algorithms/Exam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A-star"
+              "title": "Exam"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,39 +183,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35442d6099b926db",
+  "active": "7fe27ccb6b445b0f",
   "lastOpenFiles": [
+    "Design and Analysis of Algorithms/CO1/23MX22 (2).md",
+    "AI/Co4/Mutually exclusive events.md",
+    "AI/Co4/CO4.md",
+    "AI/Co4/Sample Space.md",
+    "AI/Exam.md",
+    "AI/Co3/Logical equivalences.md",
+    "AI/Co3/CO3.md",
+    "AI/Co3/CNF DNF.md",
+    "AI/Co3/Rules for Propositional Logic.md",
+    "AI/Co3/Deduction theorem.md",
+    "AI/Co3/Resolution Principle.md",
+    "AI/Co3/Skolemization.md",
+    "AI/Co3/Induction and Deduction.md",
+    "AI/Co3/Laws of Propositional Logic.md",
+    "AI/Co3/Chaining.md",
+    "AI/Co3/Forward Chaining.md",
+    "AI/Co2/CO2.md",
+    "AI/Co3",
+    "AI/Co2/AND OR Graphs.md",
+    "AI/Co2/Alpha-Beta Pruning.md",
+    "AI/Co2/Problem Decomposition.md",
+    "AI/Co2/attachments/Pasted image 20260527162639.png",
+    "AI/Co2/CSP.md",
+    "AI/Co2/Genetic Algorithm.md",
+    "AI/Co2/Map Coloring.md",
+    "Design and Analysis of Algorithms/Exam.md",
+    "AI/Co2/attachments/Pasted image 20260527121106.png",
+    "AI/Co2/Search Algorithms.md",
+    "AI/Co2/Simulated Annealing.md",
+    "AI/Co2/attachments/Pasted image 20260527102723.png",
+    "AI/Co2/attachments",
+    "AI/Co1/attachments/Pasted image 20260527101541.png",
     "AI/Co1/attachments/Pasted image 20260525174909.png",
-    "AI/Co1/CO1.md",
-    "AI/Co1/A-star.md",
-    "AI/Co1/Hill Climbing.md",
-    "AI/Co1/DFS.md",
-    "AI/Co1/PAGE Factors.md",
-    "AI/Co1/Intelligent Agent.md",
-    "AI/Co1/Task Environment Analysis.md",
-    "AI/Co1/BFS.md",
     "AI/Co1/attachments/Pasted image 20260525171527.png",
     "AI/Co1/attachments/Pasted image 20260525170505.png",
     "AI/Co1/attachments/Pasted image 20260525165623.png",
     "AI/Co1/attachments",
-    "AI/Co1/Turing Test.md",
-    "AI/Co1/Definition.md",
-    "AI/Exam.md",
-    "AI/Water Jug Problem.md",
-    "AI/Syllabus.md",
-    "AI/Semesters.md",
-    "AI/Resources.md",
     "AI/Co1",
-    "AI/Co2/Simulated Annealing.md",
-    "Software Engineering/Exam.md",
-    "Software Engineering/Syllabus.md",
-    "Study/Prompt.md",
-    "Enterprise Computing using Full-Stack/Exam.md",
-    "Enterprise Computing using Full-Stack/Syllabus.md",
-    "Java/Exam.md",
-    "Java/Syllabus MCA.md",
-    "Java/Syllabus.md",
-    "Design and Analysis of Algorithms/Exam.md",
     "Design and Analysis of Algorithms/Untitled.canvas",
     "Design and Analysis of Algorithms/Untitled.base",
     "Study",
@@ -223,13 +231,6 @@
     "Design and Analysis of Algorithms/CO2",
     "Design and Analysis of Algorithms/CO1/attachments/Pasted image 20260519171508.png",
     "Design and Analysis of Algorithms/CO1/attachments",
-    "Design and Analysis of Algorithms/CO1",
-    "AI/Co4",
-    "AI/Co2",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260512072525.png",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511210721.png",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511210655.png",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511205800.png",
-    "Software Engineering/UML OOAD/attachments/Pasted image 20260511205613.png"
+    "Design and Analysis of Algorithms/CO1"
   ]
 }
