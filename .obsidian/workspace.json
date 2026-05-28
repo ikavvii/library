@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
+                "file": "Design and Analysis of Algorithms/CO2/Dijkstra's Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Prim's Algorithm"
+              "title": "Dijkstra's Algorithm"
             }
           }
         ]
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,11 +183,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91a085cd7e953f24",
+  "active": "7fe27ccb6b445b0f",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/CO2/CO2.md",
-    "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
+    "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
     "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
+    "Design and Analysis of Algorithms/CO2/Dijkstra's Algorithm.md",
+    "Design and Analysis of Algorithms/CO2/CO2.md",
+    "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
+    "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
     "Design and Analysis of Algorithms/CO2/Merge sort.md",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
     "Design and Analysis of Algorithms/CO2/Quick sort.md",
@@ -209,9 +213,6 @@
     "AI/Exam.md",
     "AI/Co3/Logical equivalences.md",
     "AI/Co3/CO3.md",
-    "AI/Co3/CNF DNF.md",
-    "AI/Co3/Rules for Propositional Logic.md",
-    "AI/Co3/Deduction theorem.md",
     "AI/Co3",
     "AI/Co2/attachments/Pasted image 20260527162639.png",
     "AI/Co2/attachments/Pasted image 20260527121106.png",

@@ -1,4 +1,4 @@
-The **$n$-Queens problem** is a classic combinatorial problem that serves as a primary example of the **backtracking** algorithm design paradigm. The goal is to place $n$ queens on an $n \times n$ chessboard such that no two queens "attack" each other, meaning no two queens share the same row, column, or diagonal.
+ The **$n$-Queens problem** is a classic combinatorial problem that serves as a primary example of the **backtracking** algorithm design paradigm. The goal is to place $n$ queens on an $n \times n$ chessboard such that no two queens "attack" each other, meaning no two queens share the same row, column, or diagonal.
 
 ### 1. Problem Formulation
 
