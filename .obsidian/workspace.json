@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/Exam.md",
+                "file": "Design and Analysis of Algorithms/CO2/Quick sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam"
+              "title": "Quick sort"
             }
           }
         ]
@@ -184,8 +184,8 @@
   },
   "active": "91a085cd7e953f24",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/B Tree.md",
     "Design and Analysis of Algorithms/Exam.md",
+    "Design and Analysis of Algorithms/B Tree.md",
     "Design and Analysis of Algorithms/CO2/CO2.md",
     "Design and Analysis of Algorithms/CO2/Quick sort.md",
     "Design and Analysis of Algorithms/CO1/CO1.md",
