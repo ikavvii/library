@@ -10,7 +10,7 @@ Algorithm Prim(V, E, cost, n, t)
 // n is the number of vertices, t is the result MST
 {
     Let (u, v) be an edge of minimum cost in E;
-    t = u; t = v;
+    t[1,1] = u; t[1,2] = v;
     mincost = cost[u, v];
     for i = 1 to n do // Initialize near array
         if (cost[i, u] < cost[i, v]) then near[i] = u;

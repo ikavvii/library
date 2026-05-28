@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
+                "file": "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimal Storage on Tapes"
+              "title": "Prim's Algorithm"
             }
           }
         ]
@@ -186,8 +186,8 @@
   "lastOpenFiles": [
     "Design and Analysis of Algorithms/CO2/CO2.md",
     "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
-    "Design and Analysis of Algorithms/CO2/Merge sort.md",
     "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
+    "Design and Analysis of Algorithms/CO2/Merge sort.md",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
     "Design and Analysis of Algorithms/CO2/Quick sort.md",
     "Design and Analysis of Algorithms/CO3/CO3.md",
