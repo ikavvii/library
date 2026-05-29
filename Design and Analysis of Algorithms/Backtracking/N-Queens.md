@@ -10,7 +10,6 @@ To solve this efficiently, the problem is formulated with specific constraints:
 
 ### 2. Backtracking Algorithm
 
-The sources provide a specific recursive algorithm to find all non-attacking placements:
 
 - **The `Place(k, i)` Function:** This helper function checks if a queen can be safely placed in row $k$ and column $i$. It iterates through all previously placed queens (rows $1$ to $k-1$) to ensure no two are in the same column ($x[j] = i$) and no two are on the same diagonal ($|x[j] - i| = |j - k|$).
 - **The `NQueens(k, n)` Procedure:** This is the core backtracking routine. It attempts to place a queen in row $k$ by iterating through columns $i = 1$ to $n$. If `Place(k, i)` returns true, the column is recorded, and the algorithm recursively calls itself for row $k+1$. If $k=n$, a full solution is printed.

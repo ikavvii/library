@@ -4,7 +4,7 @@ Here is the definition and comparison of M-way search trees and B-trees, along w
 
 ### **1. M-way Search Trees Defined**
 
-An **M-way search tree** is a generalization of a binary search tree where each node can have a maximum of $m$ children and $m-1$ keys. For any node with $k$ keys ($k < m$), the keys are stored in sorted order ($K_1 < K_2 < ... < K_k$), and the node has $k+1$ pointers to subtrees. These subtrees contain keys that fall within the ranges defined by the parent node's keys.
+An **M-way search tree** is a generalization of c a binary search tree where each node can have a maximum of $m$ children and $m-1$ keys. For any node with $k$ keys ($k < m$), the keys are stored in sorted order ($K_1 < K_2 < ... < K_k$), and the node has $k+1$ pointers to subtrees. These subtrees contain keys that fall within the ranges defined by the parent node's keys.
 
 ### **2. Differences Between M-way Search Trees and B-Trees**
 
