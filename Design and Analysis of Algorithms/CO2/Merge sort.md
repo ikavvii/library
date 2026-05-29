@@ -93,3 +93,32 @@ MS(1,1) MS(2,2)                 MS(6,6) MS(7,7)
     - **Best Case:** $\mathbf{O(n \log n)}$.
     - **Worst Case:** $\mathbf{O(n \log n)}$.
 - **Significance:** Unlike Quick Sort, Merge Sort maintains the same time complexity regardless of the initial order of the elements.
+
+ **Merge Sort** consistently divides the problem into two equal halves, regardless of the initial arrangement of the data. Consequently, the recurrence relation and the resulting time complexity are the same for both the best and worst cases.
+
+### **Recurrence Relation**
+
+The recurrence relation for Merge Sort describes the time taken to sort $n$ elements by recursively sorting two halves of size $n/2$ and then merging them in linear time:
+
+- **For $n = 1$:** $T(n) = 1$ (or a constant $a$)
+- **For $n > 1$:** **$T(n) = 2T(n/2) + cn$**
+
+Where:
+
+- **$2T(n/2)$** represents the two recursive calls to the `MergeSort()` function.
+- **$cn$** (or $O(n)$) represents the time taken by the `Merge()` function to combine the two sorted sub-arrays.
+
+---
+
+### **Time Complexity**
+
+Using the Master Theorem or the substitution method (as required in typical DAA exams), the solution to the above recurrence relation is:
+
+|Case|Recurrence Relation|Time Complexity|
+|:--|:--|:--|
+|**Best Case**|$T(n) = 2T(n/2) + cn$|**$O(n \log n)$**|
+|**Worst Case**|$T(n) = 2T(n/2) + cn$|**$O(n \log n)$**|
+
+### **Comparison with Quick Sort**
+
+It is important to note the distinction highlighted in your syllabus: unlike **Quick Sort**, which degrades to $O(n^2)$ in the worst case (when the recurrence is $T(n) = T(n-1) + cn$), **Merge Sort** maintains its efficiency of **$O(n \log n)$** even in the worst-case scenario because the division of the array is always balanced.
