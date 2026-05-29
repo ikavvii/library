@@ -1,4 +1,4 @@
-The **Sum of Subsets** problem is a classic combinatorial problem that seeks to find all combinations of a given set of $n$ distinct positive numbers (usually called weights) that sum to a target value $m$. It is a primary application of the **backtracking** design paradigm.
+  The **Sum of Subsets** problem is a classic combinatorial problem that seeks to find all combinations of a given set of $n$ distinct positive numbers (usually called weights) that sum to a target value $m$. It is a primary application of the **backtracking** design paradigm.
 
 ### 1. Problem Formulation
 

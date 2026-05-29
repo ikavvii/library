@@ -39,7 +39,7 @@ Algorithm Backtrack(k)
             if (k < n) then Backtrack(k + 1);
         }
     }
-}
+} n 
 ```
 
 **2. Iterative Backtracking (Algorithm 7.2):** This method uses a `while` loop to grow the solution vector in a depth-first manner.
@@ -69,5 +69,3 @@ The sources identify several classic problems that are best solved using this pa
 - **Graph Coloring:** Determining if a graph can be colored with $m$ colors such that no two adjacent nodes share the same color.
 - **Hamiltonian Cycles:** Finding a round-trip path that visits every vertex in a graph exactly once.
 - **0/1 Knapsack Problem:** An optimization problem often solved by backtracking using bounding functions to prune branches that cannot exceed the current best profit.
-
-Would you like me to create a tailored report detailing the step-by-step trace of the **n-Queens problem** to illustrate how the bounding function prunes the search space?
