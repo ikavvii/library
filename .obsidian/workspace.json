@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e162d0cc2c3b0187",
+        "id": "71ce94fabb262fdb",
         "type": "tabs",
         "children": [
           {
-            "id": "2086e096c99244ce",
+            "id": "eb60839ae52bb8b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO3/CO3.md",
+                "file": "Design and Analysis of Algorithms/CO3/Flow shop job scheduling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CO3"
+              "title": "Flow shop job scheduling"
             }
           }
         ]
@@ -182,37 +182,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2086e096c99244ce",
+  "active": "eb60839ae52bb8b2",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/CO2/Algorithm Design.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/TSP.md",
+    "Design and Analysis of Algorithms/CO3/Flow shop job scheduling.md",
+    "Design and Analysis of Algorithms/CO3/CO3.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/All Pairs (Floyd-Warshall).md",
+    "Design and Analysis of Algorithms/Dynamic Programming/Top down Bottom up.md",
+    "Design and Analysis of Algorithms/CO4/CO4.md",
+    "Design and Analysis of Algorithms/CO2/Ternary Search.md",
+    "Design and Analysis of Algorithms/CO4/Untitled",
+    "Design and Analysis of Algorithms/CO4",
+    "Design and Analysis of Algorithms/CO2/Binary Search.md",
     "Design and Analysis of Algorithms/CO2/CO2.md",
-    "Design and Analysis of Algorithms/CO2/Binary Decision Tree.md",
+    "Design and Analysis of Algorithms/CO2/max min.md",
     "Design and Analysis of Algorithms/CO2/Merge sort.md",
     "Design and Analysis of Algorithms/CO2/Optimal Merge Pattern.md",
+    "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
+    "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
+    "Design and Analysis of Algorithms/CO2/Algorithm Design.md",
+    "Design and Analysis of Algorithms/CO2/Binary Decision Tree.md",
     "Design and Analysis of Algorithms/CO2/DnC.md",
-    "Design and Analysis of Algorithms/CO2/max min.md",
     "Design and Analysis of Algorithms/CO2/Huffman Coding.md",
     "Design and Analysis of Algorithms/CO2/Dijkstra's Algorithm.md",
     "Design and Analysis of Algorithms/CO2/Fractional Knapsack.md",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
-    "Design and Analysis of Algorithms/CO2/Prim's Algorithm.md",
     "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
-    "Design and Analysis of Algorithms/CO2/Optimal Storage on Tapes.md",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
     "Design and Analysis of Algorithms/CO2/Quick sort.md",
-    "Design and Analysis of Algorithms/CO3/CO3.md",
     "Design and Analysis of Algorithms/Exam.md",
     "Design and Analysis of Algorithms/B Tree.md",
     "Design and Analysis of Algorithms/CO1/CO1.md",
-    "Design and Analysis of Algorithms/CO1/Trie.md",
-    "Design and Analysis of Algorithms/CO1/Tree comparisons.md",
-    "Design and Analysis of Algorithms/CO1/B Trees.md",
-    "Design and Analysis of Algorithms/CO1/AVL vs BST.md",
-    "Design and Analysis of Algorithms/CO1/Asymptotic analysis.md",
-    "Design and Analysis of Algorithms/CO1/23MX22 (2).md",
-    "Design and Analysis of Algorithms/CO1/B+ Trees.md",
     "Design and Analysis of Algorithms/CO3",
-    "Design and Analysis of Algorithms/AVL Tree.md",
     "AI/Co3",
     "AI/Co2/attachments/Pasted image 20260527162639.png",
     "AI/Co2/attachments/Pasted image 20260527121106.png",
@@ -228,8 +230,6 @@
     "Design and Analysis of Algorithms/Untitled.canvas",
     "Design and Analysis of Algorithms/Untitled.base",
     "Study",
-    "Design and Analysis of Algorithms/CO2/attachments",
-    "Design and Analysis of Algorithms/CO2",
-    "Design and Analysis of Algorithms/CO1/attachments"
+    "Design and Analysis of Algorithms/CO2/attachments"
   ]
 }

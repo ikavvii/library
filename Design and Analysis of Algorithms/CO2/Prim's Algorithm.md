@@ -70,3 +70,33 @@ Algorithm Prim(V, E, cost, n, t)
 - **Total Cable Length Calculation:** $4 + 8 + 1 + 2 + 4 + 2 + 7 + 9 = \mathbf{37}$.
 
 The minimum length of cable needed to connect all nine villages is **37 units**.
+
+
+In Prim’s algorithm, the **greedy principle** is used to incrementally build a Minimum Cost Spanning Tree (MST) by making the best possible "local" choice at each step to achieve a "global" optimum. Unlike the **Divide and Conquer (D&C)** paradigm—which partitions a problem into smaller independent sub-problems to be solved and then merged—the Greedy method expands a single partial solution.
+
+### **1. The Greedy Choice: Local Optimality**
+
+The core of the greedy strategy in Prim’s is the selection of the next edge to add to the tree. At every iteration, the algorithm looks at all possible edges that connect a vertex **already in the MST** to a vertex **outside the MST**.
+
+- **The Principle:** It chooses the edge with the **absolute minimum cost** among these candidates.
+- **The Goal:** By always picking the cheapest available connection to the current tree, the algorithm aims to minimize the total weight of the final spanning tree.
+
+### **2. Initialization via Global Minimum**
+
+Consistent with the greedy paradigm’s "best first" logic, the algorithm typically starts by selecting an edge $(u, v)$ that has the **minimum cost in the entire set of edges** in the graph. This initial "greedy" selection provides the starting seed for the tree.
+
+### **3. Iterative Expansion (The "Near" Logic)**
+
+The algorithm maintains the greedy choice through a mechanism (often a `near` array) that tracks the closest vertex in the tree for every vertex outside the tree.
+
+- **Selection Step:** It searches for an index $j$ such that $near[j] \neq 0$ and the cost of the edge $(j, near[j])$ is the **minimum**.
+- **Feasibility and Update:** Once this minimum edge is added, the algorithm updates its records to see if the new vertex provides a "cheaper" way to connect other remaining villages or nodes. This ensures the next greedy choice is based on the most up-to-date local information.
+
+### **Contrast with Divide and Conquer**
+
+While D&C algorithms like **Merge Sort** or **Binary Search** rely on breaking the problem into halves (represented by recurrence relations like $T(n) = 2T(n/2) + cn$), Prim’s algorithm does not divide the graph. Instead:
+
+- **Incremental vs. Recursive:** Prim’s builds the solution **one edge at a time** (requiring $n-1$ edges for $n$ vertices) rather than solving sub-graphs and merging them.
+- **Decision Making:** D&C follows a pre-defined structural split; Greedy makes a decision based on the **cost-benefit** of available options at each specific step.
+
+In summary, Prim's algorithm is a classic example of the **Greedy method** because it never reconsiders previous choices and always proceeds by adding the most cost-effective edge currently reachable.
