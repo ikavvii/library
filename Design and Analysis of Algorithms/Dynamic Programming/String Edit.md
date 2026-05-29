@@ -6,7 +6,7 @@ Since the standard costs for deletion ($D$) and insertion ($I$) are 1, the cost 
 $D=1, I=1, R=2$
 
 $cost(i, j) = \min \{ cost(i-1, j-1) + replace\_cost, cost(i-1, j) + delete, cost(i, j-1) + insert \}$
-
+     
 ### Backtracking Procedure
 
 The backtracking begins at the bottom-right corner of the matrix, $C[n, m]$, where $n$ is the length of string $X$ and $m$ is the length of string $Y$. You move backward toward $C[0, 0]$ by determining which operation produced the value in the current cell.

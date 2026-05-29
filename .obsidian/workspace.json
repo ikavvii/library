@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "71ce94fabb262fdb",
+        "id": "50dacbd16d526a54",
         "type": "tabs",
         "children": [
           {
-            "id": "eb60839ae52bb8b2",
+            "id": "3ed7060e7c5827ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design and Analysis of Algorithms/CO3/Flow shop job scheduling.md",
+                "file": "Design and Analysis of Algorithms/CO4/CO4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flow shop job scheduling"
+              "title": "CO4"
             }
           }
         ]
@@ -182,11 +182,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb60839ae52bb8b2",
+  "active": "3ed7060e7c5827ed",
   "lastOpenFiles": [
-    "Design and Analysis of Algorithms/Dynamic Programming/TSP.md",
-    "Design and Analysis of Algorithms/CO3/Flow shop job scheduling.md",
+    "Design and Analysis of Algorithms/CO4/State Space Tree Terminology.md",
     "Design and Analysis of Algorithms/CO3/CO3.md",
+    "Design and Analysis of Algorithms/CO3/Flow shop job scheduling.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/String Edit.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/LCS.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/Multistage Graph.md",
+    "Design and Analysis of Algorithms/Dynamic Programming/TSP.md",
     "Design and Analysis of Algorithms/Dynamic Programming/0 1 Knapsack Problem.md",
     "Design and Analysis of Algorithms/Dynamic Programming/All Pairs (Floyd-Warshall).md",
     "Design and Analysis of Algorithms/Dynamic Programming/Top down Bottom up.md",
@@ -210,10 +214,6 @@
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
     "Design and Analysis of Algorithms/Backtracking/N-Queens.md",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
-    "Design and Analysis of Algorithms/CO2/Quick sort.md",
-    "Design and Analysis of Algorithms/Exam.md",
-    "Design and Analysis of Algorithms/B Tree.md",
-    "Design and Analysis of Algorithms/CO1/CO1.md",
     "Design and Analysis of Algorithms/CO3",
     "AI/Co3",
     "AI/Co2/attachments/Pasted image 20260527162639.png",
