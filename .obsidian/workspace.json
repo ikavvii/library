@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enterprise Computing using Full-Stack/CO1/Bank CORE.md",
+                "file": "Study/Quiz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bank CORE"
+              "title": "Quiz"
             }
           }
         ]
@@ -184,8 +184,9 @@
   },
   "active": "fc0ff02fd5b3e108",
   "lastOpenFiles": [
-    "Enterprise Computing using Full-Stack/Diagrams.md",
     "Enterprise Computing using Full-Stack/CO1/Bank CORE.md",
+    "Study/Quiz.md",
+    "Enterprise Computing using Full-Stack/Diagrams.md",
     "Enterprise Computing using Full-Stack/Study Plan.md",
     "Enterprise Computing using Full-Stack/CO1/CO1.md",
     "Enterprise Computing using Full-Stack/CO2/CO2.md",
@@ -213,7 +214,6 @@
     "AI/Co3/Chaining.md",
     "AI/Co2/Simulated Annealing.md",
     "AI/Co2/Search Algorithms.md",
-    "AI/Co2/Problem Decomposition.md",
     "Design and Analysis of Algorithms/CO4/Untitled",
     "Design and Analysis of Algorithms/CO4",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
