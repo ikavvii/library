@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enterprise Computing using Full-Stack/Exam.md",
+                "file": "Enterprise Computing using Full-Stack/CO1/Bank CORE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam"
+              "title": "Bank CORE"
             }
           }
         ]
@@ -184,6 +184,19 @@
   },
   "active": "fc0ff02fd5b3e108",
   "lastOpenFiles": [
+    "Enterprise Computing using Full-Stack/Diagrams.md",
+    "Enterprise Computing using Full-Stack/CO1/Bank CORE.md",
+    "Enterprise Computing using Full-Stack/Study Plan.md",
+    "Enterprise Computing using Full-Stack/CO1/CO1.md",
+    "Enterprise Computing using Full-Stack/CO2/CO2.md",
+    "Enterprise Computing using Full-Stack/CO3/CO3.md",
+    "Enterprise Computing using Full-Stack/CO4/CO4.md",
+    "Enterprise Computing using Full-Stack/CO4",
+    "Enterprise Computing using Full-Stack/CO3",
+    "Enterprise Computing using Full-Stack/CO2",
+    "Enterprise Computing using Full-Stack/CO1",
+    "Enterprise Computing using Full-Stack/Exam.md",
+    "Java/Exam.md",
     "AI/Co4/Bayesian Network.md",
     "AI/Co4/Baye's rule.md",
     "AI/Co4/Independence.md",
@@ -201,15 +214,6 @@
     "AI/Co2/Simulated Annealing.md",
     "AI/Co2/Search Algorithms.md",
     "AI/Co2/Problem Decomposition.md",
-    "AI/Co2/Map Coloring.md",
-    "AI/Co2/Genetic Algorithm.md",
-    "AI/Co2/CSP.md",
-    "AI/Co2/AND OR Graphs.md",
-    "AI/Co2/Alpha-Beta Pruning.md",
-    "AI/Co1/Turing Test.md",
-    "AI/Co1/Task Environment Analysis.md",
-    "AI/Co1/State Space Modelling.md",
-    "AI/Co1/PAGE Factors.md",
     "Design and Analysis of Algorithms/CO4/Untitled",
     "Design and Analysis of Algorithms/CO4",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
@@ -226,10 +230,6 @@
     "AI/Co1/attachments/Pasted image 20260525170505.png",
     "AI/Co1/attachments/Pasted image 20260525165623.png",
     "AI/Co1/attachments",
-    "AI/Co1",
-    "Design and Analysis of Algorithms/Untitled.canvas",
-    "Design and Analysis of Algorithms/Untitled.base",
-    "Study",
-    "Design and Analysis of Algorithms/CO2/attachments"
+    "Design and Analysis of Algorithms/Untitled.canvas"
   ]
 }
