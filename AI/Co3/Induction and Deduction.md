@@ -22,11 +22,11 @@ Inductive reasoning is a **data-driven** process that moves from **specific obse
 
 ### **Summary of Differences**
 
-|Feature|Deductive Reasoning|Inductive Reasoning|
-|:--|:--|:--|
-|**Direction**|**Top-Down:** From general rules to specific cases.|**Bottom-Up:** From specific cases to general rules.|
-|**Certainty**|The conclusion is **certain** if the premises are true.|The conclusion is **probabilistic** (likely, but not certain).|
-|**AI Application**|**Knowledge Representation:** Used in Resolution and Logic.|**Machine Learning:** Used in Supervised and Unsupervised learning.|
-|**Goal**|To **prove** a specific hypothesis.|To **discover** a new rule or pattern.|
+| Feature            | Deductive Reasoning                                         | Inductive Reasoning                                                 |
+| :----------------- | :---------------------------------------------------------- | :------------------------------------------------------------------ |
+| **Direction**      | **Top-Down:** From general rules to specific cases.         | **Bottom-Up:** From specific cases to general rules.                |
+| **Certainty**      | The conclusion is **certain** if the premises are true.     | The conclusion is **probabilistic** (likely, but not certain).      |
+| **AI Application** | **Knowledge Representation:** Used in Resolution and Logic. | **Machine Learning:** Used in Supervised and Unsupervised learning. |
+| **Goal**           | To **prove** a specific hypothesis.                         | To **discover** a new rule or pattern.                              |
 
 _**Note:** The provided sources are examination papers that identify the distinction between induction and deduction as a mandatory topic for evaluation but do not contain the full descriptive answer text within their pages._

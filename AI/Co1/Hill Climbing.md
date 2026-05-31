@@ -1,7 +1,5 @@
 **Hill Climbing** is a heuristic search that follows a path of increasing value to find an optimum. However, this algorithm frequently encounters three major **pitfalls** that can prevent it from reaching the global maximum.
 
-The following explanations and solutions are based on standard Artificial Intelligence academic principles, as the provided sources identify this as a required exam topic but do not contain the descriptive answers within their text:
-
 ### **1. Local Maxima**
 
 - **Description:** A **Local Maximum** is a peak that is higher than all its immediate neighboring states but is **lower than the global maximum**. Since the algorithm only moves "upward," it gets stuck at this sub-optimal point because any move it takes will lead to a lower value.
