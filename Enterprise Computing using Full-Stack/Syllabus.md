@@ -1,9 +1,7 @@
 23MX24 ENTERPRISE COMPUTING USING FULL STACK
 
 3 2 0 5
-ENTERPRISE FOUNDATIONS: Enterprise software characteristics – Enterprise Architectural overview- Component Based
-software development. Multi-tier/multilayer system - Use of patterns, frameworks, and software stacks for Enterprise application
-development. Enterprise software for Hospital, University and manufacturing firm. (12+6)
+ENTERPRISE FOUNDATIONS: Enterprise software characteristics – Enterprise Architectural overview- Component Based software development. Multi-tier/multilayer system - Use of patterns, frameworks, and software stacks for Enterprise application development. Enterprise software for Hospital, University and manufacturing firm. (12+6)
 
 ENTERPRISE DATA ENABLING: Enterprise Data - Basis of JDBC, Drivers, Connection, Statement, Result Set, Advanced JDBC
 features, CRUD operations and Query Languages. NOSQL in Enterprise applications. ENTERPRISE WEB ENABLING:
