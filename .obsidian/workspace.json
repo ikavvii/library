@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enterprise Computing using Full-Stack/CO1/Diagrams.md",
+                "file": "Enterprise Computing using Full-Stack/CO1/Role of Pattern and Frameworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagrams"
+              "title": "Role of Pattern and Frameworks"
             }
           }
         ]
@@ -184,13 +184,28 @@
   },
   "active": "d46107052041140f",
   "lastOpenFiles": [
+    "Enterprise Computing using Full-Stack/CO1/CO1.md",
+    "Enterprise Computing using Full-Stack/CO1/Diagrams.md",
+    "Enterprise Computing using Full-Stack/CO1/Role of Pattern and Frameworks.md",
+    "Enterprise Computing using Full-Stack/CO1/SoC.md",
+    "Enterprise Computing using Full-Stack/CO1/Characteristics.md",
+    "Enterprise Computing using Full-Stack/CO1/EA.md",
+    "Enterprise Computing using Full-Stack/Syllabus.md",
+    "Enterprise Computing using Full-Stack/CO2/CO2.md",
+    "Enterprise Computing using Full-Stack/Misc/GST.md",
+    "Enterprise Computing using Full-Stack/Misc",
+    "Enterprise Computing using Full-Stack/CO1/University System Integration.md",
+    "Enterprise Computing using Full-Stack/CO1/Hospital Enterprise Architecture.md",
+    "Enterprise Computing using Full-Stack/Exam.md",
+    "Enterprise Computing using Full-Stack/Study Plan.md",
+    "Inter-collegiate/National College, Tiruchirappalli.md",
+    "Inter-collegiate/Dhanalakshmi Srinivasan College, Perambalur.md",
+    "Inter-collegiate/St. Joseph's College, Tiruchirappalli.md",
+    "Enterprise Computing using Full-Stack/Diagrams.md",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531124447.png",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531124354.png",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531124302.png",
-    "Enterprise Computing using Full-Stack/CO1/CO1.md",
     "Enterprise Computing using Full-Stack/CO1/Bank CORE.md",
-    "Enterprise Computing using Full-Stack/CO1/Diagrams.md",
-    "Enterprise Computing using Full-Stack/Diagrams.md",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531123637.png",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531123613.png",
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531123603.png",
@@ -198,11 +213,7 @@
     "Enterprise Computing using Full-Stack/CO1/attachments/Pasted image 20260531123335.png",
     "Enterprise Computing using Full-Stack/CO1/attachments",
     "Enterprise Computing using Full-Stack/Objects.md",
-    "Enterprise Computing using Full-Stack/Study Plan.md",
-    "Enterprise Computing using Full-Stack/Syllabus.md",
-    "Enterprise Computing using Full-Stack/Exam.md",
     "Study/Quiz.md",
-    "Enterprise Computing using Full-Stack/CO2/CO2.md",
     "Enterprise Computing using Full-Stack/CO3/CO3.md",
     "Enterprise Computing using Full-Stack/CO4/CO4.md",
     "Enterprise Computing using Full-Stack/CO4",
@@ -213,23 +224,12 @@
     "AI/Co4/Bayesian Network.md",
     "AI/Co4/Baye's rule.md",
     "AI/Co4/Independence.md",
-    "AI/Co4/Learning Frameworks.md",
-    "AI/Co3/Skolemization.md",
-    "AI/Co3/Rules for Propositional Logic.md",
-    "AI/Co3/Resolution Principle.md",
-    "AI/Co3/Logical equivalences.md",
-    "AI/Co3/Laws of Propositional Logic.md",
-    "AI/Co3/Induction and Deduction.md",
-    "AI/Co3/Forward Chaining.md",
-    "AI/Co3/Deduction theorem.md",
     "Design and Analysis of Algorithms/CO4/Untitled",
     "Design and Analysis of Algorithms/CO4",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528214453.png",
     "Design and Analysis of Algorithms/CO2/attachments/Pasted image 20260528191001.png",
     "Design and Analysis of Algorithms/CO3",
     "AI/Co3",
-    "AI/Co2/attachments/Pasted image 20260527162639.png",
-    "AI/Co2/attachments",
     "Design and Analysis of Algorithms/Untitled.canvas"
   ]
 }
