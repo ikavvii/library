@@ -2,11 +2,12 @@
   "textFontFamily": "Helvetica,JetBrains Mono",
   "accentColor": "",
   "theme": "obsidian",
-  "baseFontSize": 15,
+  "baseFontSize": 18,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "Helvetica,JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
   "nativeMenus": false,
   "showViewHeader": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "cssTheme": "Minimal"
 }
