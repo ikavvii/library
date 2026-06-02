@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java Fundamentals/JVM Arch, Bytecode.md",
+                "file": "Java/Threads/Producer Consumer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JVM Arch, Bytecode"
+              "title": "Producer Consumer"
             }
           }
         ]
@@ -184,11 +184,13 @@
   },
   "active": "e5c9546856246497",
   "lastOpenFiles": [
+    "Java/Exam.md",
+    "Java/Threads/Producer Consumer.md",
+    "Java/Java Fundamentals/JVM Arch, Bytecode.md",
     "Java/Co3 Co4/Concepts.md",
     "Java/Threads/Life cycle.md",
     "Java/Threads/attachments/Pasted image 20260602071729.png",
     "Java/Threads/attachments",
-    "Java/Exam.md",
     "Java/Threads",
     "Java/Java Notes.md",
     "Java/main-lab.md",
@@ -200,7 +202,6 @@
     "Java/Co3 Co4/CO3 CO4.md",
     "Java/Co3 Co4/Links.md",
     "Java/Co3 Co4/23MX23(1).md",
-    "Java/Java Fundamentals/JVM Arch, Bytecode.md",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213516.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213338.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213302.png",
