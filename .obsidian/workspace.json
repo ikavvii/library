@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Producer Consumer"
             }
+          },
+          {
+            "id": "020649e4ee88a883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Threads/Join.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Join"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,9 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5c9546856246497",
+  "active": "020649e4ee88a883",
   "lastOpenFiles": [
     "Java/Exam.md",
+    "Java/Threads/Join.md",
     "Java/Threads/Producer Consumer.md",
     "Java/Java Fundamentals/JVM Arch, Bytecode.md",
     "Java/Co3 Co4/Concepts.md",
@@ -220,7 +236,6 @@
     "Enterprise Computing using Full-Stack/Co3 Co4/SPA MPA.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/SOAP REST.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/SOAP.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/REST.md",
     "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601123108.png",
     "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601122938.png",
     "Enterprise Computing using Full-Stack/CO4/attachments",
