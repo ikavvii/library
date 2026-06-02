@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Threads/Join.md",
+                "file": "Java/EDM AWT JDBC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Join"
+              "title": "EDM AWT JDBC"
             }
           }
         ],
@@ -200,6 +200,7 @@
   "active": "020649e4ee88a883",
   "lastOpenFiles": [
     "Java/Exam.md",
+    "Java/EDM AWT JDBC.md",
     "Java/Threads/Join.md",
     "Java/Threads/Producer Consumer.md",
     "Java/Java Fundamentals/JVM Arch, Bytecode.md",
@@ -235,7 +236,6 @@
     "Enterprise Computing using Full-Stack/Co3 Co4/web service and web app.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/SPA MPA.md",
     "Enterprise Computing using Full-Stack/Co3 Co4/SOAP REST.md",
-    "Enterprise Computing using Full-Stack/Co3 Co4/SOAP.md",
     "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601123108.png",
     "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601122938.png",
     "Enterprise Computing using Full-Stack/CO4/attachments",
