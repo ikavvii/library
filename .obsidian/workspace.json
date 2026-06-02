@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/EDM AWT JDBC.md",
+                "file": "Java/Exam.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EDM AWT JDBC"
+              "title": "Exam"
             }
           }
         ],
@@ -199,6 +199,8 @@
   },
   "active": "020649e4ee88a883",
   "lastOpenFiles": [
+    "Java/Co3 Co4/CO3 CO4.md",
+    "Java/Co3 Co4/23MX23(1).md",
     "Java/Exam.md",
     "Java/EDM AWT JDBC.md",
     "Java/Threads/Join.md",
@@ -216,9 +218,7 @@
     "Java/Lab/Model Lab Practice.md",
     "Java/IO Streams/IO Streams.md",
     "Java/Exception Handling/Exception Handling.md",
-    "Java/Co3 Co4/CO3 CO4.md",
     "Java/Co3 Co4/Links.md",
-    "Java/Co3 Co4/23MX23(1).md",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213516.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213338.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213302.png",
