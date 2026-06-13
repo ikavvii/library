@@ -59,10 +59,10 @@
 
 #### **3. Test Case Report**
 
-|Test Case ID|Path|Input (`withdrawAmount`)|Expected Output|Status|
-|:--|:--|:--|:--|:--|
-|**TC01**|Path 1|20,000|"Error: Daily withdrawal limit exceeded."|Pass|
-|**TC02**|Path 2|80,000|"Error: Daily withdrawal limit exceeded." (Note: Hits limit first)|Pass|
-|**TC03**|Path 3|5,000|"Cash dispensed successfully. Current Balance: 68,500"|Pass|
+| Test Case ID | Path   | Input (`withdrawAmount`) | Expected Output                                                    | Status |
+| :----------- | :----- | :----------------------- | :----------------------------------------------------------------- | :----- |
+| **TC01**     | Path 1 | 20,000                   | "Error: Daily withdrawal limit exceeded."                          | Pass   |
+| **TC02**     | Path 2 | 80,000                   | "Error: Daily withdrawal limit exceeded." (Note: Hits limit first) | Pass   |
+| **TC03**     | Path 3 | 5,000                    | "Cash dispensed successfully. Current Balance: 68,500"             | Pass   |
 
 **Note on Logic:** In this specific scenario where the daily limit (15,000) is much lower than the balance (73,500), the "Insufficient Funds" path is logically unreachable if the limit is checked first (as any amount exceeding the balance would have already exceeded the daily limit). However, the pseudo code includes the check to maintain a standard banking logic structure.

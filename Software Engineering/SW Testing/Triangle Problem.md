@@ -72,8 +72,8 @@ These test values outside the valid range to ensure the system handles invalid d
 
 While BVA focuses on ranges, testing the triangle logic requires specific combinations.
 
-|TC ID|a|b|c|Expected Output|Logic|
-|:--|:--|:--|:--|:--|:--|
-|**TC20**|12|13|14|Scalene|All sides different|
-|**TC21**|5|5|5|Equilateral|Min-range equilateral|
-|**TC22**|2|2|5|Not a Triangle|Sum of two sides ($2+2$) < 5|
+| TC ID    | a   | b   | c   | Expected Output | Logic                        |
+| :------- | :-- | :-- | :-- | :-------------- | :--------------------------- |
+| **TC20** | 12  | 13  | 14  | Scalene         | All sides different          |
+| **TC21** | 5   | 5   | 5   | Equilateral     | Min-range equilateral        |
+| **TC22** | 2   | 2   | 5   | Not a Triangle  | Sum of two sides ($2+2$) < 5 |
