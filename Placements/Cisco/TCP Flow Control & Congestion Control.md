@@ -5,7 +5,7 @@ Transmission Control Protocol (TCP) is a connection-oriented, reliable transport
 
 **Goal:** Prevent a fast sender from overwhelming a slow receiver's buffer.
 
-- **Mechanism (Sliding Window):** Flow control is managed via the **sliding window mechanism**. The receiver allocates a specific buffer size for incoming data and communicates the remaining unused space to the sender in every acknowledgment (ACK).
+- **Mechanism (Sliding Window):** Flow control is managed via the **sliding window mechanism**. The receiver allocates a specific buffer size for incoming data and communicates the remaining unused space to the sender in every acknowledgment (ACK). 
 - **Receive Window (`rwnd`):** This advertised value is known as the receive window, which tells the sender exactly how many unacknowledged bytes it is allowed to transmit.
 - **Zero Window & Persist Timer:** If the receiver's application processes data too slowly, its buffer fills up, and it will advertise a window size of **zero**. The sender must then pause transmission and start a **persist timer**. The sender will periodically send 1-byte "probe" packets to check if the receiver's window has reopened, preventing a deadlock.
 
