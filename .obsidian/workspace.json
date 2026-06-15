@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Placements/Cisco/TCP Flow Control & C Congestion Control ongestion Control.md",
+                "file": "Placements/Cisco/TCP Flow Control & Congestion Control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP Flow Control & C Congestion Control ongestion Control"
+              "title": "TCP Flow Control & Congestion Control"
             }
           }
         ]
@@ -185,7 +185,7 @@
   "active": "b03ccf6b01ec21ef",
   "lastOpenFiles": [
     "Placements/Cisco/Topics.md",
-    "Placements/Cisco/TCP Flow Control & C Congestion Control ongestion Control.md",
+    "Placements/Cisco/TCP Flow Control & Congestion Control.md",
     "Placements/Cisco",
     "Miniproject/Ideas.md",
     "Miniproject/Briefs.md",
