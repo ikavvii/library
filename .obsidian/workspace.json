@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "315779fe64ad07a0",
+        "id": "25909563eebf9ad1",
         "type": "tabs",
         "children": [
           {
-            "id": "b03ccf6b01ec21ef",
+            "id": "d854f422343b170d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Placements/Cisco/TCP Flow Control & Congestion Control.md",
+                "file": "Placements/Interview Exp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TCP Flow Control & Congestion Control"
+              "title": "Interview Exp"
             }
           }
         ]
@@ -182,16 +182,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b03ccf6b01ec21ef",
+  "active": "d854f422343b170d",
   "lastOpenFiles": [
-    "Placements/Cisco/Topics.md",
-    "Placements/Cisco/TCP Flow Control & Congestion Control.md",
-    "Placements/Cisco",
+    "Hackathon/Tips.md",
+    "Placements/Interview Exp.md",
+    "Miniproject/AI Control Plane/Enterprise AI Orchestration Platform.md",
+    "Hackathon/Untitled",
+    "Hackathon",
+    "Miniproject/Trends Research.md",
+    "Miniproject/AI Control Plane",
+    "Miniproject/Problems.md",
+    "Miniproject/Miniproject.md",
     "Miniproject/Ideas.md",
     "Miniproject/Briefs.md",
-    "Miniproject/Problems.md",
-    "Miniproject/Trends Research.md",
-    "Miniproject/Miniproject.md",
+    "Placements/TCS/Questions.md",
+    "Placements/TCS/NQT.md",
+    "Placements/Untitled",
+    "Placements/Placement Meeting Summary (29 June 2026).md",
+    "Resources/GFG/Links.md",
+    "Resources/Resume/Links.md",
+    "Resources/Resume",
+    "Placements/Cisco/Links.md",
+    "Resources/GFG",
+    "Placements/Cisco/Topics.md",
+    "Placements/Google/Kavin M - Transcript.md",
+    "Placements/Google/attachments/Pasted image 20260622210137.png",
+    "Placements/Google/attachments/Pasted image 20260622210027.png",
+    "Placements/Google/attachments",
+    "Placements/Google",
+    "Placements/Cisco/Routing Protocols & Packet Forwarding.md",
+    "Placements/Cisco/TCP Flow Control & Congestion Control.md",
+    "Placements/Cisco",
     "Miniproject",
     "Software Engineering/Co1/Questions.md",
     "Software Engineering/Co2/Questions.md",
@@ -201,35 +222,14 @@
     "Software Engineering/2 marks.md",
     "Software Engineering/UML OOAD/Concepts.md",
     "Software Engineering/UML OOAD/Assertions.md",
-    "Software Engineering/UML OOAD/Activity Chart.md",
-    "Software Engineering/UML OOAD/Class and Object Diagram.md",
-    "Software Engineering/SW Testing/Path Testing.md",
-    "Software Engineering/SW Testing/Triangle Problem.md",
-    "Software Engineering/CO 3 & CO 4.md",
-    "Software Engineering/UML OOAD/Questions.md",
-    "Software Engineering/SW Testing/WBT.md",
-    "Software Engineering/SW Testing/BVA vs Robust based testing.md",
-    "Software Engineering/UML OOAD/Sequence Diagram.md",
-    "Software Engineering/SW Testing/ATM Withdrawal Black Box Test Cases.md",
-    "Software Engineering/SW Testing/BBT.md",
-    "Software Engineering/Co4",
-    "Software Engineering/Co3",
-    "Software Engineering/Co2",
-    "Software Engineering/Co1",
     "Java/Threads/attachments/Pasted image 20260602071729.png",
-    "Java/Threads/attachments",
-    "Java/Threads",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213516.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213338.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213302.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213249.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213234.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213138.png",
-    "Java/Java Fundamentals/attachments",
-    "Java/Java Fundamentals",
     "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601123108.png",
-    "Enterprise Computing using Full-Stack/CO4/attachments/Pasted image 20260601122938.png",
-    "Enterprise Computing using Full-Stack/CO2/attachments/Pasted image 20260601084103.png",
     "Design and Analysis of Algorithms/Untitled.canvas"
   ]
 }
