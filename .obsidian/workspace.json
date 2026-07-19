@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/IPv4.md",
+                "file": "Placements/Caterpillar/Interview Exp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IPv4"
+              "title": "Interview Exp"
             }
           }
         ]
@@ -182,10 +182,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d6ad3d6090a83d8",
+  "active": "3ed2f9b071e1a85b",
   "lastOpenFiles": [
-    "Data and Communication networks/hybrid topology.canvas",
     "Computer Networks/IPv4.md",
+    "Data and Communication networks/hybrid topology.canvas",
     "Computer Networks",
     "Data and Communication networks/DCN Notes.md",
     "Data and Communication networks/HDLC/High-level Data Link Control (HDLC).md",
