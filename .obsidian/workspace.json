@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/VLSM based addressing.md",
+                "file": "DevOps/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLSM based addressing"
+              "title": "Untitled"
             }
           }
         ],
@@ -227,9 +227,11 @@
   },
   "active": "14d6428974f9fa49",
   "lastOpenFiles": [
+    "Computer Networks/VLSM based addressing.md",
+    "DevOps/Untitled.md",
+    "DevOps",
     "Computer Networks/attachments/Pasted image 20260817032853.png",
     "Computer Networks/attachments",
-    "Computer Networks/VLSM based addressing.md",
     "AI/attachments/Pasted image 20260811213502.png",
     "Leetcode/Links.md",
     "AI/RAG.md",
@@ -268,12 +270,10 @@
     "Placements/Google/Kavin M - Transcript.md",
     "Placements/Google/attachments/Pasted image 20260622210137.png",
     "Placements/Google/attachments/Pasted image 20260622210027.png",
-    "Placements/Google/attachments",
     "Java/Threads/attachments/Pasted image 20260602071729.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213516.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213338.png",
     "Java/Java Fundamentals/attachments/Pasted image 20260601213302.png",
-    "Java/Java Fundamentals/attachments/Pasted image 20260601213249.png",
     "Design and Analysis of Algorithms/Untitled.canvas"
   ]
 }
