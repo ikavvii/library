@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Hair/6 Factors.md",
+                "file": "Placements/Infosys/Init.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Factors"
+              "title": "Init"
             }
           }
         ]
@@ -187,8 +187,10 @@
   },
   "active": "986e48ea65a7ea38",
   "lastOpenFiles": [
-    "LMS/LMS.md",
     "Personal/Hair/6 Factors.md",
+    "Placements/Infosys/Init.md",
+    "Placements/Infosys",
+    "LMS/LMS.md",
     "Personal/Hair",
     "Personal",
     "Placements/Placement Meeting Summary (29 June 2026).md",
@@ -224,10 +226,8 @@
     "Miniproject/Briefs.md",
     "Placements/TCS/Questions.md",
     "Placements/TCS/NQT.md",
-    "Placements/Caterpillar",
     "Resources/GFG/Links.md",
     "Resources/Resume/Links.md",
-    "Placements/Cisco/Links.md",
     "Placements/Google/attachments/Pasted image 20260622210137.png",
     "Placements/Google/attachments/Pasted image 20260622210027.png",
     "Java/Threads/attachments/Pasted image 20260602071729.png",
