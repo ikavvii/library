@@ -1,4 +1,3 @@
-## NidhisConstruction
 
 ### Problem Description
 
