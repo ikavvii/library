@@ -4,21 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "becb2659851d89e0",
+        "id": "541a6f740bec1215",
         "type": "tabs",
         "children": [
           {
-            "id": "986e48ea65a7ea38",
+            "id": "09eee539b673816c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Placements/Infosys/Infosys Specialist Programmer - Digital Specialist Engineer — Complete Interview Preparation Guide.md",
+                "file": "Placements/TCS/CodeVita Coding Arena/TheBrickwall.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Infosys Specialist Programmer - Digital Specialist Engineer — Complete Interview Preparation Guide"
+              "title": "TheBrickwall"
             }
           }
         ]
@@ -185,10 +186,21 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "986e48ea65a7ea38",
+  "active": "09eee539b673816c",
   "lastOpenFiles": [
-    "Placements/Infosys/how to study a topic for interview effectively.md",
+    "Placements/TCS/CodeVita Coding Arena/attachments/Pasted image 20260925221953.png",
+    "Placements/TCS/CodeVita Coding Arena/attachments/Pasted image 20260925221930.png",
+    "Placements/TCS/CodeVita Coding Arena/attachments/Pasted image 20260925221858.png",
+    "Placements/TCS/CodeVita Coding Arena/Untitled.md",
+    "Placements/TCS/CodeVita Coding Arena/TheBrickwall.md",
+    "Placements/TCS/CodeVita Coding Arena/attachments/Pasted image 20260925220014.png",
+    "Placements/TCS/CodeVita Coding Arena/attachments/Pasted image 20260925220122.png",
+    "Placements/TCS/attachments/Pasted image 20260511203211.png",
+    "Placements/TCS/attachments/Pasted image 20260511203147.png",
+    "Placements/TCS/CodeVita Coding Arena/attachments",
     "Placements/Infosys/Infosys Specialist Programmer - Digital Specialist Engineer — Complete Interview Preparation Guide.md",
+    "Placements/TCS/CodeVita Coding Arena",
+    "Placements/Infosys/how to study a topic for interview effectively.md",
     "Placements/Infosys/Init.md",
     "Personal/Hair/6 Factors.md",
     "Placements/Infosys",
@@ -219,21 +231,10 @@
     "Hackathon/Tips.md",
     "Miniproject/AI Control Plane/Enterprise AI Orchestration Platform.md",
     "Hackathon/Untitled",
-    "Hackathon",
     "Miniproject/Trends Research.md",
-    "Miniproject/AI Control Plane",
     "Miniproject/Problems.md",
     "Miniproject/Miniproject.md",
     "Miniproject/Ideas.md",
-    "Miniproject/Briefs.md",
-    "Placements/TCS/Questions.md",
-    "Placements/TCS/NQT.md",
-    "Placements/Google/attachments/Pasted image 20260622210137.png",
-    "Placements/Google/attachments/Pasted image 20260622210027.png",
-    "Java/Threads/attachments/Pasted image 20260602071729.png",
-    "Java/Java Fundamentals/attachments/Pasted image 20260601213516.png",
-    "Java/Java Fundamentals/attachments/Pasted image 20260601213338.png",
-    "Java/Java Fundamentals/attachments/Pasted image 20260601213302.png",
     "Design and Analysis of Algorithms/Untitled.canvas"
   ]
 }
