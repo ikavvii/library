@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1508.9640166666666 1863.1740000000004" width="1508.9640166666666" height="1863.1740000000004" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="Security_Layer" data-label="Enterprise Guardrails Layer">
+  <rect x="778.1744833333332" y="1460.4740000000002" width="338.4869999999999" height="181.8" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="778.1744833333332" y="1460.4740000000002" width="338.4869999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="790.1744833333332" y="1474.4740000000002" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Enterprise Guardrails Layer</text>
+</g>
+<g class="subgraph" data-id="Caching_Layer" data-label="Multi-Tier Caching Layer">
+  <rect x="50.039999999999964" y="58" width="514.4455" height="689.0740000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="50.039999999999964" y="58" width="514.4455" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="62.039999999999964" y="72" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Multi-Tier Caching Layer</text>
+<g class="subgraph" data-id="Output_Guard" data-label="Post-Processing &amp; Output Guardrails">
+  <rect x="66.03999999999996" y="201.73999999999998" width="123.46" height="36.900000000000006" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="66.03999999999996" y="201.73999999999998" width="123.46" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="78.03999999999996" y="215.73999999999998" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Post-Processing &amp; Output Guardrails</text>
+</g>
+</g>
+<g class="subgraph" data-id="Core_Engine" data-label="Orchestration &amp; Workflow Engine">
+  <rect x="856.0102666666664" y="203.27600000000007" width="581.015" height="543.798" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="856.0102666666664" y="203.27600000000007" width="581.015" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="868.0102666666664" y="217.27600000000007" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Orchestration &amp; Workflow Engine</text>
+</g>
+<g class="subgraph" data-id="Provider_Pool" data-label="Multi-Provider Gateway">
+  <rect x="486.3773333333333" y="807.0740000000001" width="891.4199999999998" height="96.9" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="486.3773333333333" y="807.0740000000001" width="891.4199999999998" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="498.3773333333333" y="821.0740000000001" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Multi-Provider Gateway</text>
+</g>
+<g class="subgraph" data-id="Output_Guard" data-label="Post-Processing &amp; Output Guardrails">
+  <rect x="707.3152624999998" y="963.974" width="329.59499999999997" height="266.70000000000005" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="707.3152624999998" y="963.974" width="329.59499999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="719.3152624999998" y="977.974" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Post-Processing &amp; Output Guardrails</text>
+</g>
+<g class="subgraph" data-id="LLMOps" data-label="Observability &amp; Governance">
+  <rect x="480.4901666666666" y="1702.2740000000003" width="940.0299999999997" height="120.9" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="480.4901666666666" y="1702.2740000000003" width="940.0299999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="492.4901666666666" y="1716.2740000000003" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Observability &amp; Governance</text>
+</g>
+<polyline class="edge" data-from="Client" data-to="API_GW" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="947.4179833333333,1321.574 947.4179833333332,1369.574" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="API_GW" data-to="PII_In" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="947.4179833333332,1406.4740000000002 947.4179833333332,1504.4740000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Inj_Def" data-to="Exact_Cache" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="947.4179833333332,1626.2740000000001 947.4179833333332,1672.2740000000001 40.039999999999964,1672.2740000000001 40.039999999999964,40 335.68999999999994,40 335.69,102.00000000000006" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Sem_Cache" data-to="Router" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Miss" points="364.22283333333326,685.0083333333333 364.22283333333326,777.0740000000001 735.2372291666666,777.0740000000001 735.2372291666666,185.27600000000007 1038.1462666666664,185.27600000000007 1038.1462666666664,247.27600000000007" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Circuit_Breaker" data-to="P_Gemini" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1040.0553916666663,731.0740000000001 1040.0553916666663,791.0740000000001 609.3083333333333,791.0740000000001 609.3083333333333,851.0740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Circuit_Breaker" data-to="P_OpenAI" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1040.0553916666663,731.0740000000001 1040.0553916666663,791.0740000000001 831.9043333333332,791.0740000000001 831.9043333333332,851.0740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Circuit_Breaker" data-to="P_Anthropic" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1040.0553916666663,731.0740000000001 1040.0553916666663,791.0740000000001 1019.3028333333332,791.0740000000001 1019.3028333333332,851.0740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Circuit_Breaker" data-to="P_Local" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1040.0553916666663,731.0740000000001 1040.0553916666663,791.0740000000001 1240.4168333333332,791.0740000000001 1240.4168333333332,851.0740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_Gemini" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="609.3083333333333,887.974 609.3083333333333,947.974 872.1127624999998,947.974 872.1127624999998,1007.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_OpenAI" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="831.9043333333332,887.974 831.9043333333332,947.974 872.1127624999998,947.974 872.1127624999998,1007.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_Anthropic" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1019.3028333333332,887.974 1019.3028333333332,947.974 872.1127624999998,947.974 872.1127624999998,1007.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_Local" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1240.4168333333332,887.974 1240.4168333333332,947.974 872.1127624999998,947.974 872.1127624999998,1007.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Schema_Val" data-to="Client" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="872.1127624999998,1214.674 872.1127624999998,1272.674 947.4179833333333,1272.674 947.4179833333333,1284.674" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Security_Layer" data-to="OTel" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="957.4179833333332,1642.2740000000003 957.4179833333332,1684.2740000000003 891.3964999999998,1684.2740000000003 891.3964999999998,1770.2740000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Core_Engine" data-to="OTel" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="1121.2132916666665,747.0740000000001 1121.2132916666665,777.0740000000001 1460.9640166666666,777.0740000000001 1460.9640166666666,1684.2740000000003 1254.6076666666665,1684.2740000000003 1254.6076666666665,1758.2740000000003 974.0458333333331,1758.2740000000003 974.0458333333331,1770.2740000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Provider_Pool" data-to="Prom" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="1250.4168333333332,903.974 1250.4168333333332,1684.2740000000003 1243.1076666666665,1684.2740000000003 1243.1076666666665,1684.2740000000003 1244.6076666666665,1684.2740000000003 1244.6076666666665,1770.2740000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Output_Guard" data-to="Audit" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="862.1127624999998,1230.674 862.1127624999998,1272.674 721.3068166666667,1272.674 721.3068166666667,1684.2740000000003 638.6186666666665,1684.2740000000003 638.6186666666665,1770.2740000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PII_In" data-to="Inj_Def" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="947.4179833333332,1541.3740000000003 947.4179833333332,1589.3740000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Exact_Cache" data-to="Output_Guard" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Hit" points="346.33333333333326,327.7366666666667 346.33333333333326,408.38 311.1314999999999,408.38 311.1314999999999,959.6740000000001 391.99783333333323,959.6740000000001 391.99783333333323,1003.974 822.6554624999999,1003.974 822.6554624999999,1021.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Exact_Cache" data-to="Sem_Cache" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Miss" points="375.0866666666666,298.98333333333335 375.0866666666666,350.38 410.28849999999994,350.38 410.28849999999994,454.68" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Sem_Cache" data-to="Output_Guard" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Hit" points="506.39416666666654,634.9683333333335 506.39416666666654,947.6740000000001 425.5278333333332,947.6740000000001 425.5278333333332,991.974 832.6554624999999,991.974 832.6554624999999,1021.974" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Router" data-to="Mode_Switch" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1038.1462666666664,284.17600000000004 1038.1462666666664,332.17600000000004" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Mode_Switch" data-to="Circuit_Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Direct Model Call" points="997.9467666666665,452.7745000000001 997.9467666666665,504.97400000000005 916.5102666666664,504.97400000000005 916.5102666666664,658.1740000000001 988.2571416666665,658.1740000000001 988.2571416666665,694.1740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Mode_Switch" data-to="DAG_Engine" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Agentic Workflow" points="1038.1462666666664,492.97400000000005 1038.1462666666664,609.2740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Mode_Switch" data-to="Hybrid_RAG" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Context Augmented" points="1078.3457666666663,452.77450000000016 1078.3457666666663,504.97400000000005 1298.9037666666663,504.97400000000005 1298.9037666666663,609.2740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DAG_Engine" data-to="Circuit_Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1038.1462666666664,646.1740000000001 1038.1462666666664,658.1740000000001 1040.0553916666663,658.1740000000001 1040.0553916666663,694.1740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Hybrid_RAG" data-to="Circuit_Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1298.9037666666663,646.1740000000001 1298.9037666666663,658.1740000000001 1091.8536416666664,658.1740000000001 1091.8536416666664,694.1740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Out_Mod" data-to="PII_Out" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="872.1127624999998,1044.874 872.1127624999998,1092.874" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PII_Out" data-to="Schema_Val" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="872.1127624999998,1129.7740000000001 872.1127624999998,1177.7740000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="Sem_Cache" data-to="Router" data-label="Miss">
+  <rect x="714.7372291666666" y="727.7740000000001" width="40.816" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="735.1452291666666" y="742.9240000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Miss</text>
+</g>
+<g class="edge-label" data-from="Exact_Cache" data-to="Output_Guard" data-label="Hit">
+  <rect x="376.99783333333323" y="966.6740000000001" width="29.53" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="391.7628333333332" y="981.8240000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Hit</text>
+</g>
+<g class="edge-label" data-from="Exact_Cache" data-to="Sem_Cache" data-label="Miss">
+  <rect x="389.78849999999994" y="381.38" width="40.816" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="410.19649999999996" y="396.53" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Miss</text>
+</g>
+<g class="edge-label" data-from="Sem_Cache" data-to="Output_Guard" data-label="Hit">
+  <rect x="410.5278333333332" y="954.6740000000001" width="29.53" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="425.2928333333332" y="969.8240000000001" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Hit</text>
+</g>
+<g class="edge-label" data-from="Mode_Switch" data-to="Circuit_Breaker" data-label="Direct Model Call">
+  <rect x="868.0102666666664" y="535.974" width="96.65200000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="916.3362666666665" y="551.124" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Direct Model Call</text>
+</g>
+<g class="edge-label" data-from="Mode_Switch" data-to="DAG_Engine" data-label="Agentic Workflow">
+  <rect x="988.6462666666665" y="535.974" width="98.43400000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1037.8632666666665" y="551.124" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Agentic Workflow</text>
+</g>
+<g class="edge-label" data-from="Mode_Switch" data-to="Hybrid_RAG" data-label="Context Augmented">
+  <rect x="1244.9037666666663" y="535.974" width="107.34400000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1298.5757666666664" y="551.124" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Context Augmented</text>
+</g>
+<g class="node" data-id="Client" data-label="Client / Enterprise Applications" data-shape="rectangle">
+  <rect x="836.7819833333333" y="1284.674" width="221.27199999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="947.4179833333333" y="1303.124" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Client / Enterprise Applications</text>
+</g>
+<g class="node" data-id="API_GW" data-label="API Gateway &amp; Tenant Middleware (Auth, Rate Limiter, Quotas)" data-shape="rectangle">
+  <rect x="748.9734833333332" y="1369.574" width="396.8889999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="947.4179833333332" y="1388.0240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">API Gateway &amp; Tenant Middleware (Auth, Rate Limiter, Quotas)</text>
+</g>
+<g class="node" data-id="PII_In" data-label="PII Scrubbing &amp; Anonymization (Bi-directional)" data-shape="rectangle">
+  <rect x="794.1744833333332" y="1504.4740000000002" width="306.4869999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="947.4179833333332" y="1522.9240000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">PII Scrubbing &amp; Anonymization (Bi-directional)</text>
+</g>
+<g class="node" data-id="Inj_Def" data-label="Prompt Injection &amp; Jailbreak Detector" data-shape="rectangle">
+  <rect x="818.9979833333332" y="1589.3740000000003" width="256.84" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="947.4179833333332" y="1607.8240000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Prompt Injection &amp; Jailbreak Detector</text>
+</g>
+<g class="node" data-id="Exact_Cache" data-label="Exact Hash Cache (SHA-256)" data-shape="diamond">
+  <polygon points="335.68999999999994,102.00000000000001 453.87999999999994,220.19 335.68999999999994,338.38 217.49999999999994,220.19" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="335.68999999999994" y="220.19" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Exact Hash Cache (SHA-256)</text>
+</g>
+<g class="node" data-id="Sem_Cache" data-label="Semantic Vector Cache (Cosine Sim)" data-shape="diamond">
+  <polygon points="410.28849999999994,454.67999999999995 548.4855,592.877 410.28849999999994,731.074 272.09149999999994,592.877" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="410.28849999999994" y="592.877" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Semantic Vector Cache (Cosine Sim)</text>
+</g>
+<g class="node" data-id="Router" data-label="Intelligent Dynamic Router" data-shape="rectangle">
+  <rect x="942.3302666666664" y="247.27600000000007" width="191.63199999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1038.1462666666664" y="265.72600000000006" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Intelligent Dynamic Router</text>
+</g>
+<g class="node" data-id="Mode_Switch" data-label="Execution Mode" data-shape="diamond">
+  <polygon points="1038.1462666666664,332.17600000000004 1118.5452666666665,412.57500000000005 1038.1462666666664,492.97400000000005 957.7472666666664,412.57500000000005" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1038.1462666666664" y="412.57500000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Execution Mode</text>
+</g>
+<g class="node" data-id="Circuit_Breaker" data-label="Resilience &amp; Circuit Breaker" data-shape="rectangle">
+  <rect x="936.4588916666664" y="694.1740000000001" width="207.19299999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1040.0553916666663" y="712.6240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Resilience &amp; Circuit Breaker</text>
+</g>
+<g class="node" data-id="DAG_Engine" data-label="Multi-Agent DAG &amp; State Engine" data-shape="rectangle">
+  <rect x="927.5102666666664" y="609.2740000000001" width="221.27199999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1038.1462666666664" y="627.7240000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Multi-Agent DAG &amp; State Engine</text>
+</g>
+<g class="node" data-id="Hybrid_RAG" data-label="Hybrid RAG (Dense + BM25 + RRF)" data-shape="rectangle">
+  <rect x="1176.7822666666664" y="609.2740000000001" width="244.243" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1298.9037666666663" y="627.7240000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Hybrid RAG (Dense + BM25 + RRF)</text>
+</g>
+<g class="node" data-id="P_Gemini" data-label="Google Gemini (1.5 Flash / Pro)" data-shape="rectangle">
+  <rect x="502.3773333333333" y="851.0740000000001" width="213.862" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="609.3083333333333" y="869.5240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Google Gemini (1.5 Flash / Pro)</text>
+</g>
+<g class="node" data-id="P_OpenAI" data-label="OpenAI / Azure OpenAI" data-shape="rectangle">
+  <rect x="744.2393333333332" y="851.0740000000001" width="175.32999999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="831.9043333333332" y="869.5240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">OpenAI / Azure OpenAI</text>
+</g>
+<g class="node" data-id="P_Anthropic" data-label="Anthropic Claude" data-shape="rectangle">
+  <rect x="947.5693333333331" y="851.0740000000001" width="143.467" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1019.3028333333332" y="869.5240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Anthropic Claude</text>
+</g>
+<g class="node" data-id="P_Local" data-label="Local / Self-hosted (vLLM / Ollama)" data-shape="rectangle">
+  <rect x="1119.0363333333332" y="851.0740000000001" width="242.76099999999994" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1240.4168333333332" y="869.5240000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Local / Self-hosted (vLLM / Ollama)</text>
+</g>
+<g class="node" data-id="Out_Mod" data-label="Output Moderator &amp; Hallucination Filter" data-shape="rectangle">
+  <rect x="739.6172624999998" y="1007.974" width="264.991" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="872.1127624999998" y="1026.424" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Output Moderator &amp; Hallucination Filter</text>
+</g>
+<g class="node" data-id="PII_Out" data-label="PII De-anonymization / Token Restorer" data-shape="rectangle">
+  <rect x="739.2467624999998" y="1092.874" width="265.73199999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="872.1127624999998" y="1111.324" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">PII De-anonymization / Token Restorer</text>
+</g>
+<g class="node" data-id="Schema_Val" data-label="JSON Schema Adherence &amp; Self-Correction" data-shape="rectangle">
+  <rect x="723.3152624999998" y="1177.7740000000001" width="297.59499999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="872.1127624999998" y="1196.2240000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">JSON Schema Adherence &amp; Self-Correction</text>
+</g>
+<g class="node" data-id="OTel" data-label="OpenTelemetry Distributed Tracing" data-shape="rectangle">
+  <rect x="808.7471666666665" y="1770.2740000000003" width="247.94799999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="932.7211666666665" y="1788.7240000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">OpenTelemetry Distributed Tracing</text>
+</g>
+<g class="node" data-id="Prom" data-label="Prometheus Metrics (Tokens, Costs, Latencies)" data-shape="rectangle">
+  <rect x="1084.6951666666664" y="1770.2740000000003" width="319.8249999999999" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1244.6076666666663" y="1788.7240000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Prometheus Metrics (Tokens, Costs, Latencies)</text>
+</g>
+<g class="node" data-id="Audit" data-label="Immutable Audit Log (SOC2 / GDPR Ready)" data-shape="rectangle">
+  <rect x="496.4901666666666" y="1770.2740000000003" width="284.25699999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="638.6186666666665" y="1788.7240000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Immutable Audit Log (SOC2 / GDPR Ready)</text>
+</g>
+</svg>

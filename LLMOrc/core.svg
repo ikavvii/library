@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1823.66925 2209.92" width="1823.66925" height="2209.92" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="Guardrails_In" data-label="Enterprise Input Guardrails">
+  <rect x="934.1157499999999" y="1780.5200000000002" width="287.35799999999995" height="215.60000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="934.1157499999999" y="1780.5200000000002" width="287.35799999999995" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="946.1157499999999" y="1794.5200000000002" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Enterprise Input Guardrails</text>
+</g>
+<g class="subgraph" data-id="Caching" data-label="Multi-Tier Caching Engine">
+  <rect x="173.73624999999987" y="514.5" width="463.7427499999999" height="619.42" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="173.73624999999987" y="514.5" width="463.7427499999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="185.73624999999987" y="528.5" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Multi-Tier Caching Engine</text>
+<g class="subgraph" data-id="Output_Guard" data-label="Output Guardrails &amp; Compliance">
+  <rect x="498.01899999999983" y="654.1645" width="123.46" height="36.900000000000006" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="498.01899999999983" y="654.1645" width="123.46" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="510.01899999999983" y="668.1645" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Output Guardrails &amp; Compliance</text>
+</g>
+</g>
+<g class="subgraph" data-id="Core_Orchestrator" data-label="Core Orchestration &amp; Routing Engine">
+  <rect x="620.97795" y="82" width="514.957" height="198.70000000000002" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="620.97795" y="82" width="514.957" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="632.97795" y="96" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Core Orchestration &amp; Routing Engine</text>
+</g>
+<g class="subgraph" data-id="Provider_Pool" data-label="Pluggable Multi-Provider Registry">
+  <rect x="912.9972499999999" y="1076.42" width="870.672" height="113.80000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="912.9972499999999" y="1076.42" width="870.672" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="924.9972499999999" y="1090.42" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Pluggable Multi-Provider Registry</text>
+</g>
+<g class="subgraph" data-id="Workflows_RAG" data-label="Advanced Agentic Workflows &amp; Hybrid RAG">
+  <rect x="122.85599999999998" y="340.70000000000005" width="695.9449999999999" height="113.80000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="122.85599999999998" y="340.70000000000005" width="695.9449999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="134.856" y="354.70000000000005" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Advanced Agentic Workflows &amp; Hybrid RAG</text>
+</g>
+<g class="subgraph" data-id="Output_Guard" data-label="Output Guardrails &amp; Compliance">
+  <rect x="912.9972499999999" y="1250.22" width="329.59499999999997" height="283.6" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="912.9972499999999" y="1250.22" width="329.59499999999997" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="924.9972499999999" y="1264.22" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Output Guardrails &amp; Compliance</text>
+</g>
+<g class="subgraph" data-id="Telemetry" data-label="Observability &amp; Governance (LLMOps)">
+  <rect x="854.9219999999998" y="2056.1200000000003" width="874.8219999999999" height="113.80000000000001" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="854.9219999999998" y="2056.1200000000003" width="874.8219999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="866.9219999999998" y="2070.1200000000003" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Observability &amp; Governance (LLMOps)</text>
+</g>
+<polyline class="edge" data-from="Client" data-to="API_GW" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.7947499999998,1624.7200000000003 1077.7947499999998,1672.7200000000003" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="API_GW" data-to="PII_In" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.7947499999998,1726.5200000000002 1077.7947499999998,1824.5200000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Inj_Def" data-to="Exact_Cache" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.79475,1980.1200000000003 1077.79475,2026.1200000000003 163.73624999999993,2026.1200000000003 163.73624999999993,496.5000000000002 355.90449999999987,496.5000000000002 355.9045,558.5000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Sem_Cache" data-to="Router" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Miss" points="261.3665833333332,1082.1048333333333 261.3665833333332,2014.1200000000003 78.54000000000002,2014.1200000000003 78.54000000000002,64 786.14595,64 786.14595,126" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Breaker" data-to="P_Gemini" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="958.54045,264.70000000000005 958.54045,692.5600000000001 1005.1767499999999,692.5600000000001 1005.1767499999999,1120.42" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Breaker" data-to="P_OpenAI" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="958.54045,264.70000000000005 958.54045,692.5600000000001 1197.0212499999998,692.5600000000001 1197.0212499999998,1120.42" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Breaker" data-to="P_Anthropic" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="958.54045,264.70000000000005 958.54045,692.5600000000001 1389.97725,692.5600000000001 1389.97725,1120.42" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Breaker" data-to="P_Custom" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="958.54045,264.70000000000005 958.54045,692.5600000000001 1631.4687499999998,692.5600000000001 1631.4687499999998,1120.42" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Router" data-to="DAG" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="711.5619499999999,179.8 711.56195,298.70000000000005 312.477,298.70000000000005 312.4769999999999,384.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Router" data-to="RAG" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="786.14595,179.8 786.14595,310.70000000000005 658.4495,310.70000000000005 658.4495,384.70000000000005" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="DAG" data-to="Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="312.4769999999999,438.50000000000006 312.4769999999999,472.5000000000001 52.040000000000006,472.5000000000001 52.040000000000006,52.000000000000114 958.54045,52.000000000000114 958.54045,227.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="RAG" data-to="Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="658.4495,438.50000000000006 658.4495,484.5000000000001 40.040000000000006,484.5000000000001 40.040000000000006,40.000000000000114 1039.2377,40.000000000000114 1039.2377,227.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_Gemini" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1005.1767499999999,1174.22 1005.1767499999999,1234.22 1077.79475,1234.22 1077.79475,1294.22" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_OpenAI" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1197.0212499999998,1174.22 1197.0212499999998,1234.22 1077.79475,1234.22 1077.79475,1294.22" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="P_Custom" data-to="Out_Mod" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1631.4687499999998,1174.22 1631.4687499999998,1234.22 1077.79475,1234.22 1077.79475,1294.22" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Schema_Val" data-to="Client" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.7947499999998,1517.8200000000002 1077.7947499999998,1587.8200000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Guardrails_In" data-to="OTel" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="1087.7947499999998,1996.1200000000001 1087.7947499999998,2038.1200000000003 1036.2206666666666,2038.1200000000003 1036.2206666666664,2100.1200000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Core_Orchestrator" data-to="OTel" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="776.1459499999999,280.70000000000005 776.1459499999999,322.70000000000005 828.8009999999999,322.70000000000005 828.8009999999999,2038.1200000000003 953.5713333333331,2038.1200000000003 953.5713333333331,2100.1200000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Provider_Pool" data-to="Prom" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="1641.4687499999998,1190.22 1641.4687499999998,2038.1200000000006 1622.0192499999998,2038.1200000000006 1622.0192499999998,2038.1200000000003 1548.6444999999999,2038.1200000000003 1548.6444999999997,2100.1200000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Output_Guard" data-to="Audit" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="1087.7947499999998,1533.82 1087.7947499999998,1575.8200000000002 1231.7757499999998,1575.8200000000002 1231.7757499999998,2038.1200000000003 1251.2075,2038.1200000000003 1251.2074999999998,2100.1200000000003" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PII_In" data-to="Inj_Def" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.79475,1878.3200000000002 1077.79475,1926.3200000000002" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Exact_Cache" data-to="Output_Guard" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Hit (Sub-ms, $0)" points="355.90449999999987,786.7289999999999 567.6789166666664,1313.2289999999998 588.3634999999997,1313.2289999999998 588.3634999999997,1690.42 591.0311666666664,1690.42 591.0311666666664,1734.7199999999998 1192.1409999999998,1734.7199999999998 1192.1409999999998,1764.7199999999998" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Exact_Cache" data-to="Sem_Cache" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Miss" points="317.8663333333332,748.6908333333333 317.8663333333332,798.7289999999999 297.18174999999985,798.7289999999999 297.18174999999985,903.029" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Sem_Cache" data-to="Output_Guard" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Hit (5ms, $0)" points="297.18174999999985,1117.92 506.7331666666664,1746.7199999999998 1182.1409999999998,1746.7199999999998 1182.1409999999998,1764.7199999999998" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Router" data-to="Breaker" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="860.7299499999999,179.8 860.7299499999999,191.8 877.8432,191.8 877.8432,227.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Out_Mod" data-to="PII_Out" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.7947499999998,1331.1200000000001 1077.7947499999998,1379.1200000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="PII_Out" data-to="Schema_Val" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1077.7947499999998,1432.92 1077.7947499999998,1480.92" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="Sem_Cache" data-to="Router" data-label="Miss">
+  <rect x="58.04000000000002" y="435.20000000000005" width="40.816" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="78.44800000000002" y="450.35" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Miss</text>
+</g>
+<g class="edge-label" data-from="Exact_Cache" data-to="Output_Guard" data-label="Hit (Sub-ms, $0)">
+  <rect x="546.5311666666663" y="1697.42" width="88.33600000000001" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="590.6991666666663" y="1712.5700000000002" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Hit (Sub-ms, $0)</text>
+</g>
+<g class="edge-label" data-from="Exact_Cache" data-to="Sem_Cache" data-label="Miss">
+  <rect x="276.68174999999985" y="829.7289999999999" width="40.816" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="297.08974999999987" y="844.8789999999999" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Miss</text>
+</g>
+<g class="edge-label" data-from="Sem_Cache" data-to="Output_Guard" data-label="Hit (5ms, $0)">
+  <rect x="470.2331666666664" y="1709.42" width="72.298" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="506.3821666666664" y="1724.5700000000002" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Hit (5ms, $0)</text>
+</g>
+<g class="node" data-id="Client" data-label="Client / Enterprise Application" data-shape="rectangle">
+  <rect x="970.8637499999998" y="1587.8200000000002" width="213.86199999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.7947499999998" y="1606.2700000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Client / Enterprise Application</text>
+</g>
+<g class="node" data-id="API_GW" data-label="FastAPI Gateway &amp; Tenant Middleware
+(Auth, Sliding-Window Rate Limiter, Quotas)" data-shape="rectangle">
+  <rect x="933.8137499999998" y="1672.7200000000003" width="287.9619999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.7947499999998" y="1699.6200000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1077.7947499999998" dy="-3.9000000000000012">FastAPI Gateway &amp; Tenant Middleware</tspan><tspan x="1077.7947499999998" dy="16.900000000000002">(Auth, Sliding-Window Rate Limiter, Quotas)</tspan></text>
+</g>
+<g class="node" data-id="PII_In" data-label="Bi-directional PII/PHI Anonymizer
+(SSN, Email, CC, API Keys, Phones)" data-shape="rectangle">
+  <rect x="954.93225" y="1824.5200000000002" width="245.72499999999997" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.79475" y="1851.4200000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1077.79475" dy="-3.9000000000000012">Bi-directional PII/PHI Anonymizer</tspan><tspan x="1077.79475" dy="16.900000000000002">(SSN, Email, CC, API Keys, Phones)</tspan></text>
+</g>
+<g class="node" data-id="Inj_Def" data-label="Prompt Injection &amp; Jailbreak Defense
+(Override &amp; Delimiter Protection)" data-shape="rectangle">
+  <rect x="950.1157499999999" y="1926.3200000000002" width="255.35799999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.79475" y="1953.2200000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1077.79475" dy="-3.9000000000000012">Prompt Injection &amp; Jailbreak Defense</tspan><tspan x="1077.79475" dy="16.900000000000002">(Override &amp; Delimiter Protection)</tspan></text>
+</g>
+<g class="node" data-id="Exact_Cache" data-label="Tier 1: Exact Cache
+(SHA-256 Normalized Hash)" data-shape="diamond">
+  <polygon points="355.90449999999987,558.5 470.01899999999983,672.6145 355.90449999999987,786.729 241.7899999999999,672.6145" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="355.90449999999987" y="672.6145" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="355.90449999999987" dy="-3.9000000000000012">Tier 1: Exact Cache</tspan><tspan x="355.90449999999987" dy="16.900000000000002">(SHA-256 Normalized Hash)</tspan></text>
+</g>
+<g class="node" data-id="Sem_Cache" data-label="Tier 2: Semantic Cache
+(Cosine Similarity &gt;= 0.92)" data-shape="diamond">
+  <polygon points="297.18174999999985,903.029 404.62724999999983,1010.4745 297.18174999999985,1117.92 189.73624999999987,1010.4745" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="297.18174999999985" y="1010.4745" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="297.18174999999985" dy="-3.9000000000000012">Tier 2: Semantic Cache</tspan><tspan x="297.18174999999985" dy="16.900000000000002">(Cosine Similarity &gt;= 0.92)</tspan></text>
+</g>
+<g class="node" data-id="Router" data-label="Intelligent Dynamic Router
+(Fallback Cascade, Cost/Latency Optimizer)" data-shape="rectangle">
+  <rect x="636.97795" y="126" width="298.33599999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="786.14595" y="152.9" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="786.14595" dy="-3.9000000000000012">Intelligent Dynamic Router</tspan><tspan x="786.14595" dy="16.900000000000002">(Fallback Cascade, Cost/Latency Optimizer)</tspan></text>
+</g>
+<g class="node" data-id="Breaker" data-label="Circuit Breaker (CLOSED / OPEN / HALF-OPEN)" data-shape="rectangle">
+  <rect x="797.14595" y="227.8" width="322.789" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="958.54045" y="246.25" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Circuit Breaker (CLOSED / OPEN / HALF-OPEN)</text>
+</g>
+<g class="node" data-id="P_Gemini" data-label="Google Gemini
+(1.5 Flash / Pro, 2.0)" data-shape="rectangle">
+  <rect x="928.9972499999999" y="1120.42" width="152.359" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1005.1767499999999" y="1147.3200000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1005.1767499999999" dy="-3.9000000000000012">Google Gemini</tspan><tspan x="1005.1767499999999" dy="16.900000000000002">(1.5 Flash / Pro, 2.0)</tspan></text>
+</g>
+<g class="node" data-id="P_OpenAI" data-label="OpenAI / Azure OpenAI
+(GPT-4o, GPT-4o-mini)" data-shape="rectangle">
+  <rect x="1109.3562499999998" y="1120.42" width="175.32999999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1197.0212499999998" y="1147.3200000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1197.0212499999998" dy="-3.9000000000000012">OpenAI / Azure OpenAI</tspan><tspan x="1197.0212499999998" dy="16.900000000000002">(GPT-4o, GPT-4o-mini)</tspan></text>
+</g>
+<g class="node" data-id="P_Anthropic" data-label="Anthropic Claude
+(Claude 3.5 Sonnet)" data-shape="rectangle">
+  <rect x="1312.68625" y="1120.42" width="154.582" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1389.97725" y="1147.3200000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1389.97725" dy="-3.9000000000000012">Anthropic Claude</tspan><tspan x="1389.97725" dy="16.900000000000002">(Claude 3.5 Sonnet)</tspan></text>
+</g>
+<g class="node" data-id="P_Custom" data-label="Any Custom / On-Premise LLM
+(vLLM, Ollama, Bedrock, Custom REST)" data-shape="rectangle">
+  <rect x="1495.2682499999999" y="1120.42" width="272.40099999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1631.4687499999998" y="1147.3200000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1631.4687499999998" dy="-3.9000000000000012">Any Custom / On-Premise LLM</tspan><tspan x="1631.4687499999998" dy="16.900000000000002">(vLLM, Ollama, Bedrock, Custom REST)</tspan></text>
+</g>
+<g class="node" data-id="DAG" data-label="Multi-Agent DAG Engine
+(Parallel Fan-Out, State Checkpoints, HITL Approval)" data-shape="rectangle">
+  <rect x="138.856" y="384.70000000000005" width="347.2419999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="312.477" y="411.6" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="312.477" dy="-3.9000000000000012">Multi-Agent DAG Engine</tspan><tspan x="312.477" dy="16.900000000000002">(Parallel Fan-Out, State Checkpoints, HITL Approval)</tspan></text>
+</g>
+<g class="node" data-id="RAG" data-label="Hybrid RAG
+(Dense + BM25 + Reciprocal Rank Fusion)" data-shape="rectangle">
+  <rect x="514.098" y="384.70000000000005" width="288.703" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="658.4495" y="411.6" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="658.4495" dy="-3.9000000000000012">Hybrid RAG</tspan><tspan x="658.4495" dy="16.900000000000002">(Dense + BM25 + Reciprocal Rank Fusion)</tspan></text>
+</g>
+<g class="node" data-id="Out_Mod" data-label="Output Safety &amp; Moderation" data-shape="rectangle">
+  <rect x="979.0147499999999" y="1294.22" width="197.55999999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.79475" y="1312.67" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Output Safety &amp; Moderation</text>
+</g>
+<g class="node" data-id="PII_Out" data-label="PII Entity Restorer
+(Cryptographic Token Substitution)" data-shape="rectangle">
+  <rect x="954.5617499999998" y="1379.1200000000001" width="246.46599999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.7947499999998" y="1406.0200000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1077.7947499999998" dy="-3.9000000000000012">PII Entity Restorer</tspan><tspan x="1077.7947499999998" dy="16.900000000000002">(Cryptographic Token Substitution)</tspan></text>
+</g>
+<g class="node" data-id="Schema_Val" data-label="JSON Schema Adherence &amp; Self-Correction" data-shape="rectangle">
+  <rect x="928.9972499999999" y="1480.92" width="297.59499999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1077.7947499999998" y="1499.3700000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">JSON Schema Adherence &amp; Self-Correction</text>
+</g>
+<g class="node" data-id="OTel" data-label="OpenTelemetry Distributed Tracing
+(W3C TraceContext)" data-shape="rectangle">
+  <rect x="870.9219999999998" y="2100.1200000000003" width="247.94799999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="994.8959999999997" y="2127.0200000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="994.8959999999997" dy="-3.9000000000000012">OpenTelemetry Distributed Tracing</tspan><tspan x="994.8959999999997" dy="16.900000000000002">(W3C TraceContext)</tspan></text>
+</g>
+<g class="node" data-id="Prom" data-label="Prometheus Metrics Collector
+(Tokens, Latency p50/p95/p99, Spend by Tenant)" data-shape="rectangle">
+  <rect x="1383.5449999999996" y="2100.1200000000003" width="330.19899999999996" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1548.6444999999997" y="2127.0200000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1548.6444999999997" dy="-3.9000000000000012">Prometheus Metrics Collector</tspan><tspan x="1548.6444999999997" dy="16.900000000000002">(Tokens, Latency p50/p95/p99, Spend by Tenant)</tspan></text>
+</g>
+<g class="node" data-id="Audit" data-label="Immutable Audit Logger
+(SOC2, HIPAA, GDPR Ready)" data-shape="rectangle">
+  <rect x="1146.87" y="2100.1200000000003" width="208.67499999999995" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1251.2075" y="2127.0200000000004" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="1251.2075" dy="-3.9000000000000012">Immutable Audit Logger</tspan><tspan x="1251.2075" dy="16.900000000000002">(SOC2, HIPAA, GDPR Ready)</tspan></text>
+</g>
+</svg>

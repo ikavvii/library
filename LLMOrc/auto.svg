@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1198.6734999999999 1264.356" width="1198.6734999999999" height="1264.356" style="--bg:#1F1F1F;--fg:#CCCCCC;--line:#CCCCCC;--accent:#0078D4;--muted:#CCCCCCCC;--surface:#181818;--border:#CCCCCC;background:var(--bg)">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+  text { font-family: 'Inter', system-ui, sans-serif; }
+  svg {
+    /* Derived from --bg and --fg (overridable via --line, --accent, etc.) */
+    --_text:          var(--fg);
+    --_text-sec:      var(--muted, color-mix(in srgb, var(--fg) 60%, var(--bg)));
+    --_text-muted:    var(--muted, color-mix(in srgb, var(--fg) 40%, var(--bg)));
+    --_text-faint:    color-mix(in srgb, var(--fg) 25%, var(--bg));
+    --_line:          var(--line, color-mix(in srgb, var(--fg) 50%, var(--bg)));
+    --_arrow:         var(--accent, color-mix(in srgb, var(--fg) 85%, var(--bg)));
+    --_node-fill:     var(--surface, color-mix(in srgb, var(--fg) 3%, var(--bg)));
+    --_node-stroke:   var(--border, color-mix(in srgb, var(--fg) 20%, var(--bg)));
+    --_group-fill:    var(--bg);
+    --_group-hdr:     color-mix(in srgb, var(--fg) 5%, var(--bg));
+    --_inner-stroke:  color-mix(in srgb, var(--fg) 12%, var(--bg));
+    --_key-badge:     color-mix(in srgb, var(--fg) 10%, var(--bg));
+  }
+</style>
+<defs>
+  <marker id="arrowhead" markerWidth="8" markerHeight="5" refX="7" refY="2.5" orient="auto">
+    <polygon points="0 0, 8 2.5, 0 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+  <marker id="arrowhead-start" markerWidth="8" markerHeight="5" refX="1" refY="2.5" orient="auto-start-reverse">
+    <polygon points="8 0, 0 2.5, 8 5" fill="var(--_arrow)" stroke="var(--_arrow)" stroke-width="0.75" stroke-linejoin="round" />
+  </marker>
+</defs>
+<g class="subgraph" data-id="Auto_Router_Pipeline" data-label="Autonomous Routing &amp; Tuning">
+  <rect x="40" y="215.8" width="567.011" height="317.40000000000003" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="40" y="215.8" width="567.011" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="52" y="229.8" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Autonomous Routing &amp; Tuning</text>
+</g>
+<g class="subgraph" data-id="Auto_Agent_Pipeline" data-label="Autonomous Goal-Driven Agent &amp; AutoDAG">
+  <rect x="635.011" y="215.80000000000007" width="523.6624999999999" height="917.6559999999998" rx="0" ry="0" fill="var(--_group-fill)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <rect x="635.011" y="215.80000000000007" width="523.6624999999999" height="28" rx="0" ry="0" fill="var(--_group-hdr)" stroke="var(--_node-stroke)" stroke-width="1" />
+  <text x="647.011" y="229.80000000000007" font-size="12" font-weight="600" fill="var(--_text-sec)" dy="4.199999999999999">Autonomous Goal-Driven Agent &amp; AutoDAG</text>
+</g>
+<polyline class="edge" data-from="Request" data-to="Auto_Analyzer" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="618.324875,76.9 618.324875,124.9" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Auto_Analyzer" data-to="Classifier" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="618.324875,161.8 618.324875,210.8 328.87775,210.8 328.87775,259.8" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Auto_Analyzer" data-to="Goal_Decomposer" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="618.324875,161.8 618.324875,210.8 907.7719999999999,210.8 907.7719999999999,259.80000000000007" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Dynamic_Execution" data-to="Response" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.87775,508.75000000000006 328.87775,587.2" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Next_Step" data-to="Final_Output" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="907.7719999999999,1117.456 907.7719999999999,1187.456" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Classifier" data-to="Model_Selector" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.87775,313.6 328.87775,337.6 469.6305,337.6 469.6305,361.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Classifier" data-to="Param_Tuner" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="328.87775,313.6 328.87775,337.6 188.125,337.6 188.125,361.6" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Model_Selector" data-to="Dynamic_Execution" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="469.6305,415.40000000000003 469.6305,435.17500000000007 328.87775,435.17500000000007 328.87775,454.95000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Param_Tuner" data-to="Dynamic_Execution" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="188.125,415.40000000000003 188.125,435.17500000000007 328.87775,435.17500000000007 328.87775,454.95000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Goal_Decomposer" data-to="Tool_Selector" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="907.7719999999999,313.6000000000001 907.7719999999999,361.6000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Tool_Selector" data-to="Tool_Exec" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="907.7719999999999,398.5000000000001 907.7719999999999,454.95000000000005" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Tool_Exec" data-to="Policy_Gate" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="907.7719999999999,491.85 907.7719999999999,531.4000000000001" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Policy_Gate" data-to="Auto_Approve" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="Low Risk / Within Policy" points="951.6146666666666,750.6133333333333 951.6146666666666,806.456 1028.703,806.456 1028.703,995.656" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Policy_Gate" data-to="Human_Hold" data-style="solid" data-arrow-start="false" data-arrow-end="true" data-label="High Risk / Policy Breach" points="863.9293333333333,750.6133333333333 863.9293333333333,806.456 786.8409999999999,806.456 786.8409999999999,910.756" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Auto_Approve" data-to="Next_Step" data-style="solid" data-arrow-start="false" data-arrow-end="true" points="1028.703,1032.556 1028.703,1044.556 944.2801666666666,1044.556 944.2801666666666,1080.556" fill="none" stroke="var(--_line)" stroke-width="1" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Human_Hold" data-to="Resume" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="786.8409999999999,947.656 786.8409999999999,995.656" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<polyline class="edge" data-from="Resume" data-to="Next_Step" data-style="dotted" data-arrow-start="false" data-arrow-end="true" points="786.8409999999999,1032.556 786.8409999999999,1044.556 871.2638333333332,1044.556 871.2638333333332,1080.556" fill="none" stroke="var(--_line)" stroke-width="1" stroke-dasharray="4 4" marker-end="url(#arrowhead)" />
+<g class="edge-label" data-from="Policy_Gate" data-to="Auto_Approve" data-label="Low Risk / Within Policy">
+  <rect x="965.203" y="837.456" width="126.94600000000003" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="1028.676" y="852.606" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">Low Risk / Within Policy</text>
+</g>
+<g class="edge-label" data-from="Policy_Gate" data-to="Human_Hold" data-label="High Risk / Policy Breach">
+  <rect x="718.841" y="837.456" width="135.85600000000005" height="30.3" rx="2" ry="2" fill="var(--bg)" stroke="var(--_inner-stroke)" stroke-width="1" />
+  <text x="786.769" y="852.606" text-anchor="middle" font-size="11" font-weight="400" fill="var(--_text-sec)" dy="3.8499999999999996">High Risk / Policy Breach</text>
+</g>
+<g class="node" data-id="Request" data-label="Request: model='auto' or Goal Objective" data-shape="rectangle">
+  <rect x="483.23587499999996" y="40" width="270.178" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="618.324875" y="58.45" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Request: model=&#39;auto&#39; or Goal Objective</text>
+</g>
+<g class="node" data-id="Auto_Analyzer" data-label="Prompt &amp; Goal Intent Analyzer" data-shape="rectangle">
+  <rect x="512.134875" y="124.9" width="212.38" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="618.324875" y="143.35000000000002" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Prompt &amp; Goal Intent Analyzer</text>
+</g>
+<g class="node" data-id="Response" data-label="Optimized Enterprise Completion" data-shape="rectangle">
+  <rect x="213.79575" y="587.2" width="230.16399999999993" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="328.87775" y="605.6500000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Optimized Enterprise Completion</text>
+</g>
+<g class="node" data-id="Final_Output" data-label="Completed Goal Delivery" data-shape="rectangle">
+  <rect x="815.661" y="1187.456" width="184.22199999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999999" y="1205.906" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Completed Goal Delivery</text>
+</g>
+<g class="node" data-id="Classifier" data-label="Task Classifier
+(Code, Deep Reasoning, Extraction, Simple QA)" data-shape="rectangle">
+  <rect x="172.67025000000004" y="259.8" width="312.4149999999999" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="328.87775" y="286.7" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="328.87775" dy="-3.9000000000000012">Task Classifier</tspan><tspan x="328.87775" dy="16.900000000000002">(Code, Deep Reasoning, Extraction, Simple QA)</tspan></text>
+</g>
+<g class="node" data-id="Model_Selector" data-label="Pareto Model Selector
+(Cost-Quality Frontier Optimization)" data-shape="rectangle">
+  <rect x="348.25" y="361.6" width="242.76099999999994" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="469.6305" y="388.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="469.6305" dy="-3.9000000000000012">Pareto Model Selector</tspan><tspan x="469.6305" dy="16.900000000000002">(Cost-Quality Frontier Optimization)</tspan></text>
+</g>
+<g class="node" data-id="Param_Tuner" data-label="Hyperparameter Auto-Tuner
+(Auto-sets Temp, Top_P, Max Tokens)" data-shape="rectangle">
+  <rect x="56" y="361.6" width="264.25" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="188.125" y="388.5" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="188.125" dy="-3.9000000000000012">Hyperparameter Auto-Tuner</tspan><tspan x="188.125" dy="16.900000000000002">(Auto-sets Temp, Top_P, Max Tokens)</tspan></text>
+</g>
+<g class="node" data-id="Dynamic_Execution" data-label="Execute via Provider Gateway
+(with Circuit Breaker &amp; Caching)" data-shape="rectangle">
+  <rect x="216.01875" y="454.95000000000005" width="225.718" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="328.87775" y="481.85" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="328.87775" dy="-3.9000000000000012">Execute via Provider Gateway</tspan><tspan x="328.87775" dy="16.900000000000002">(with Circuit Breaker &amp; Caching)</tspan></text>
+</g>
+<g class="node" data-id="Goal_Decomposer" data-label="Goal Decomposer &amp; Planner
+(Plan -&gt; Act -&gt; Reflect Loop)" data-shape="rectangle">
+  <rect x="804.9164999999999" y="259.80000000000007" width="205.71099999999998" height="53.800000000000004" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999999" y="286.70000000000005" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)"><tspan x="907.7719999999999" dy="-3.9000000000000012">Goal Decomposer &amp; Planner</tspan><tspan x="907.7719999999999" dy="16.900000000000002">(Plan -&gt; Act -&gt; Reflect Loop)</tspan></text>
+</g>
+<g class="node" data-id="Tool_Selector" data-label="Autonomous Tool Dispatcher" data-shape="rectangle">
+  <rect x="802.3229999999999" y="361.6000000000001" width="210.898" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999998" y="380.05000000000007" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Autonomous Tool Dispatcher</text>
+</g>
+<g class="node" data-id="Tool_Exec" data-label="Execute Registered Enterprise Tools" data-shape="rectangle">
+  <rect x="777.4994999999999" y="454.95000000000005" width="260.54499999999996" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999999" y="473.40000000000003" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Execute Registered Enterprise Tools</text>
+</g>
+<g class="node" data-id="Policy_Gate" data-label="Policy-Driven Auto-Approval Gate" data-shape="diamond">
+  <polygon points="907.7719999999999,531.4000000000001 1039.3,662.9280000000001 907.7719999999999,794.4560000000001 776.2439999999999,662.9280000000001" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999999" y="662.9280000000001" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Policy-Driven Auto-Approval Gate</text>
+</g>
+<g class="node" data-id="Auto_Approve" data-label="Auto-Approve &amp; Log Audit Event" data-shape="rectangle">
+  <rect x="914.7325" y="995.656" width="227.94099999999995" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="1028.703" y="1014.106" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Auto-Approve &amp; Log Audit Event</text>
+</g>
+<g class="node" data-id="Human_Hold" data-label="Pause for Human Review &amp; Issue Token" data-shape="rectangle">
+  <rect x="651.011" y="910.756" width="271.65999999999997" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="786.8409999999999" y="929.206" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Pause for Human Review &amp; Issue Token</text>
+</g>
+<g class="node" data-id="Next_Step" data-label="Synthesize Results / Next Step" data-shape="rectangle">
+  <rect x="798.2475" y="1080.556" width="219.04899999999998" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="907.7719999999999" y="1099.006" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Synthesize Results / Next Step</text>
+</g>
+<g class="node" data-id="Resume" data-label="Human Resumes via Token" data-shape="rectangle">
+  <rect x="686.9495" y="995.656" width="199.783" height="36.900000000000006" rx="0" ry="0" fill="var(--_node-fill)" stroke="var(--_node-stroke)" stroke-width="0.75" />
+  <text x="786.8409999999999" y="1014.106" text-anchor="middle" font-size="13" font-weight="500" fill="var(--_text)" dy="4.55">Human Resumes via Token</text>
+</g>
+</svg>
