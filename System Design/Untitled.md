@@ -52,3 +52,17 @@
 
 ![](attachments/Pasted%20image%2020261017165614.png)
 
+
+
+![](attachments/Pasted%20image%2020261017185223.png)
+
+![](attachments/Pasted%20image%2020261017185328.png)
+
+![](attachments/Pasted%20image%2020261017185413.png)
+
+![](attachments/Pasted%20image%2020261017185433.png)
+
+![](attachments/Pasted%20image%2020261017185452.png)
+
+![](attachments/Pasted%20image%2020261017185504.png)
+

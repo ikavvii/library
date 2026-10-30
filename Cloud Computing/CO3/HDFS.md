@@ -1,0 +1,1 @@
+HDFS is a filesystem designed for storing very large files with streaming data access patterns, running on clusters of commodity hardware.
