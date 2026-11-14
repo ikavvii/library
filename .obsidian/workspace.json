@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Exam.md",
+                "file": "DevOps/CO1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam"
+              "title": "CO1"
             }
           }
         ]
@@ -187,14 +187,15 @@
   },
   "active": "775552b3f8ea6e05",
   "lastOpenFiles": [
+    "DevOps/Exam.md",
+    "DevOps/CO4.md",
+    "DevOps/CO1.md",
+    "DevOps/CO2/CO2.md",
     "DevOps/mca-devops-practice-test-1-model-answer-script.md",
     "mca-devops-practice-test-1-model-answer-script.pdf",
     "DevOps/mca-devops-practice-test-2-model-answer-script.md",
-    "DevOps/CO2/CO2.md",
-    "DevOps/CO4.md",
     "DevOps/Articles.md",
     "DevOps/Untitled.md",
-    "DevOps/Exam.md",
     "DevOps/CO2",
     "Cloud Computing/CO3/CO3.md",
     "Cloud Computing/CO3/HDFS.md",
