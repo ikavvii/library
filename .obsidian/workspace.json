@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/CO1.md",
+                "file": "DevOps/CO4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CO1"
+              "title": "CO4"
             }
           }
         ]
@@ -187,9 +187,11 @@
   },
   "active": "775552b3f8ea6e05",
   "lastOpenFiles": [
+    "DevOps/attachments/Pasted image 20261116091902.png",
+    "DevOps/attachments",
+    "DevOps/CO1.md",
     "DevOps/CO2.md",
     "DevOps/CO3.md",
-    "DevOps/CO1.md",
     "DevOps/Exam.md",
     "DevOps/CO4.md",
     "DevOps/mca-devops-practice-test-1-model-answer-script.md",
@@ -218,7 +220,6 @@
     "Study/Quiz.md",
     "Miniproject/AI Control Plane/Enterprise AI Orchestration Platform.md",
     "Miniproject/Briefs.md",
-    "System Design/Untitled.md",
     "System Design/attachments/Pasted image 20261017185504.png",
     "System Design/attachments/Pasted image 20261017185452.png",
     "System Design/attachments/Pasted image 20261017185433.png",
@@ -232,7 +233,6 @@
     "System Design/attachments",
     "System Design",
     "aiengineeringfromscratch",
-    "PEAKD",
     "Data and Communication networks/hybrid topology.canvas",
     "Design and Analysis of Algorithms/Untitled.canvas"
   ]

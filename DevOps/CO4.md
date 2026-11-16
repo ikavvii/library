@@ -30,12 +30,11 @@ This question bank provides a comprehensive, university-grade academic resource 
 
 **Model Answer:**
 
-|   |   |   |
-|---|---|---|
-|Feature|Ansible Ad-Hoc Commands|Ansible Playbooks|
-|**Primary Purpose**|One-off, temporary administrative tasks (e.g., rebooting servers, checking uptime).|Complex, multi-stage configuration automation and deployment orchestration.|
-|**Format & Storage**|Executed directly from CLI using `ansible` binary; not stored as files.|Written in structured YAML files (`.yml` or `.yaml`) using the `ansible-playbook` CLI.|
-|**Reusability & Logic**|Non-reusable; limited to single module execution without complex conditional logic.|Highly reusable, version-controlled, supporting variables, loops, roles, and handlers.|
+| **Feature**             | **Ansible Ad-Hoc Commands**                                                         | **Ansible Playbooks**                                                                  |
+| ----------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| **Primary Purpose**     | One-off, temporary administrative tasks (e.g., rebooting servers, checking uptime). | Complex, multi-stage configuration automation and deployment orchestration.            |
+| **Format & Storage**    | Executed directly from CLI using `ansible` binary; not stored as files.             | Written in structured YAML files (`.yml` or `.yaml`) using the `ansible-playbook` CLI. |
+| **Reusability & Logic** | Non-reusable; limited to single module execution without complex conditional logic. | Highly reusable, version-controlled, supporting variables, loops, roles, and handlers. |
 
 ### Question 3: Explain the principle of Idempotency in Ansible configuration management.
 
@@ -61,7 +60,7 @@ This question bank provides a comprehensive, university-grade academic resource 
 **Model Answer:** Ansible Vault is a built-in feature of Ansible that enables encryption of sensitive data such as passwords, API tokens, database credentials, and private SSH keys directly within YAML configuration files.
 
 **Security Integration:** By using symmetric encryption (AES-256), Ansible Vault allows encrypted secret files to be safely committed and version-controlled inside public or private Git repositories alongside playbooks, enforcing Infrastructure as Code (IaC) best practices without exposing plaintext credentials. Playbooks decrypt vault files dynamically during runtime using `--vault-password-file` or interactive prompt.
-
+	
 ### Question 6: What is a Jinja2 template in Ansible, and how does it enable dynamic configuration?
 
 **Model Answer:** A Jinja2 template is a text file containing variables, expressions, and control structures that Ansible processes to dynamically generate customized configuration files (e.g., `nginx.conf`, `application.properties`) on managed nodes.
@@ -99,12 +98,11 @@ This question bank provides a comprehensive, university-grade academic resource 
 
 **Model Answer:**
 
-|   |   |   |
-|---|---|---|
-|Dimension|AWS CodeBuild|AWS CodeDeploy|
-|**Primary Function**|Compiles source code, runs unit tests, performs static code analysis, and produces deployable artifacts.|Automates application deployments to compute platforms (EC2, Lambda, ECS, on-premises servers).|
-|**Core Specification File**|Managed via a `buildspec.yml` file defining build phases, commands, and artifact exports.|Managed via an `appspec.yml` file defining deployment hooks, lifecycle scripts, and target paths.|
-|**Output**|Executable binaries, Docker images, or packaged zip archives exported to S3 or ECR.|Running application revisions deployed across target environment compute nodes.|
+| Dimension                   | AWS CodeBuild                                                                                            | AWS CodeDeploy                                                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Primary Function**        | Compiles source code, runs unit tests, performs static code analysis, and produces deployable artifacts. | Automates application deployments to compute platforms (EC2, Lambda, ECS, on-premises servers).   |
+| **Core Specification File** | Managed via a `buildspec.yml` file defining build phases, commands, and artifact exports.                | Managed via an `appspec.yml` file defining deployment hooks, lifecycle scripts, and target paths. |
+| **Output**                  | Executable binaries, Docker images, or packaged zip archives exported to S3 or ECR.                      | Running application revisions deployed across target environment compute nodes.                   |
 
 ### Question 11: Describe the function of AWS CodePipeline in cloud orchestration.
 
@@ -130,6 +128,8 @@ This question bank provides a comprehensive, university-grade academic resource 
 ##### 1. Architectural Blueprint & Agentless Communication Flow
 
 Ansible operates on a push-based, agentless architecture controlled from a central **Control Node** (Linux management station) that orchestrates target **Managed Nodes** (servers, network devices, cloud instances).
+
+![](attachments/Pasted%20image%2020261116091902.png)
 
 ```
                       +-----------------------------------+
